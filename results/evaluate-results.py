@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 GRADER_NAME = "sachi"
-results_file_path = "mgsm_en_llama3.2-3b-llama3.2_instruct_orig.json"
+results_file_path = "mgsm_en_llama3.1-8b-instruct-alpaca.json"
 graded_file_path = results_file_path.split(".json")[0]+"_graded-by-"+GRADER_NAME+".json"
 with open(results_file_path, 'r', encoding='utf-8') as f:
     results = json.load(f)
@@ -24,7 +24,7 @@ for i in range(len(results)):
         if response == "yes" or response == "no":
             result["correct"] = 1 if response == "yes" else 0
             break
-    print(""*50)
+    print("#"*50)
     print("#"*50)
 
 with open(graded_file_path, 'w') as f:
