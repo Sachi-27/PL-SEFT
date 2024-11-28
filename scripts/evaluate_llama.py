@@ -28,6 +28,7 @@ device_map = {"": 0}
 model_id = "../models/llama-3.2-3b-instruct/flores-pa/checkpoint-315"
 test_dataset_path = "../datasets/mgsm_in/corrected/mgsm_pa.json"
 TEMPLATE = "alpaca"
+DATASET_LANGUAGE = "Panjabi" # [Bengali, Panjabi, Hindi, Telugu,  Marathi, English]
 results_file_path = f"../results/mgsm_pa_llama3.2-3b-instruct-qalign-mono-{TEMPLATE}.json"
 NUM_SAMPLES_TO_EVAL = 50
 model_is_trained_by_me = False
@@ -62,6 +63,10 @@ def generate_prompt(instruction, template):
         return f"{instruction}\nAnswer:"
     elif template == "llama3.2_instruct_orig":
         return f"<|start_header_id|>user<|end_header_id|>\n\nBelow is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request. Question :\n{instruction}\nYour response should end with \"The final answer is [the_answer_value]\" where the [the_answer_value] is an integer.<|eot_id|> <|start_header_id|>assistant<|end_header_id|>\n\nThe final answer is"
+    elif template == "simple":
+        return f"Question:{instruction}\nSolution:"
+    elif template == "XLT":
+        return f"I want you to act as an arithmetic reasoning expert for {DATASET_LANGUAGE}.\nRequest: {instruction}\nYou should retell the request in English.\nYou should do step-by-step solution to obtain a final numeric answer.\nYou should step-by-step answer the request.\nYou should tell me the answer in this format 'Answer:'."
     else: return ValueError("Invalid template")
 
 model = AutoModelForCausalLM.from_pretrained(
