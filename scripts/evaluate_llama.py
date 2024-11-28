@@ -3,8 +3,11 @@
 import os 
 
 os.environ['CUDA_VISIBLE_DEVICES'] = 'PCI_BUS_ID'
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '4'
 os.environ['HF_HOME'] = '../hf_home'
+
+#### SCRIPT ASSUMES EMPTY INPUT FIELD IN TEST DATA
+#### NOTE
 
 import torch
 import json
@@ -21,14 +24,15 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 device_map = {"": 0} 
 
-model_id = "meta-llama/Llama-3.1-8B-Instruct"
-test_dataset_path = "../datasets/mgsm_in/corrected/mgsm_en.json"
+# model_id = "meta-llama/Llama-3.1-8B-Instruct"
+model_id = "../models/llama-3.2-3b-instruct/flores-pa/checkpoint-315"
+test_dataset_path = "../datasets/mgsm_in/corrected/mgsm_pa.json"
 TEMPLATE = "alpaca"
-results_file_path = f"../results/mgsm_en_llama3.1-8b-instruct-{TEMPLATE}.json"
+results_file_path = f"../results/mgsm_pa_llama3.2-3b-instruct-qalign-mono-{TEMPLATE}.json"
 NUM_SAMPLES_TO_EVAL = 50
 model_is_trained_by_me = False
 
-#### SCRIPT ASSUMES EMPTY INPUT FIELD IN TEST DATA
+
 DEFAULT_PAD_TOKEN = "<pad>"
 DEFAULT_EOS_TOKEN = "</s>"
 DEFAULT_BOS_TOKEN = "<s>"
@@ -74,13 +78,13 @@ tokenizer = AutoTokenizer.from_pretrained(
 
 if model_is_trained_by_me:
     if tokenizer.pad_token is None:
-        special_tokens_dict["pad_token"] = DEFAULT_PAD_TOKEN
+        tokenizer.add_special_tokens({"pad_token": DEFAULT_PAD_TOKEN})
     if tokenizer.eos_token is None:
-        special_tokens_dict["eos_token"] = DEFAULT_EOS_TOKEN
+        tokenizer.add_special_tokens({"eos_token": DEFAULT_EOS_TOKEN})
     if tokenizer.bos_token is None:
-        special_tokens_dict["bos_token"] = DEFAULT_BOS_TOKEN
+        tokenizer.add_special_tokens({"bos_token": DEFAULT_BOS_TOKEN})
     if tokenizer.unk_token is None:
-        special_tokens_dict["unk_token"] = DEFAULT_UNK_TOKEN
+        tokenizer.add_special_tokens({"unk_token": DEFAULT_UNK_TOKEN})
 
 pipe = pipeline(
     "text-generation", 
@@ -99,7 +103,7 @@ for i in tqdm(range(NUM_SAMPLES_TO_EVAL)):
     prompt_tokens = tokenizer(prompt, return_tensors="pt").input_ids
     prompt_token_length = prompt_tokens.shape[1]
     max_new_tokens = prompt_token_length + 500
-    output = pipe(prompt, max_new_tokens=max_new_tokens)[0]['generated_text'].strip().split(prompt)[1].strip()
+    output = prompt.join(pipe(prompt, max_new_tokens=max_new_tokens)[0]['generated_text'].strip().split(prompt)[1:]).strip()
 
     results.append({
         "question": test_data[i]['instruction'],
