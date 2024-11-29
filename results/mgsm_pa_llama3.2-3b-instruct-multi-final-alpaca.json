@@ -1,0 +1,255 @@
+[
+    {
+        "question": "ਜੈਨੇਟ ਦੀਆਂ ਬੱਤਖਾਂ ਪ੍ਰਤੀ ਦਿਨ 16 ਅੰਡੇ ਦਿੰਦੀਆਂ ਹਨ। ਉਹ ਹਰ ਰੋਜ਼ ਸਵੇਰੇ ਨਾਸ਼ਤੇ ਲਈ ਤਿੰਨ ਖਾਂਦੀ ਹੈ ਅਤੇ ਹਰ ਰੋਜ਼ ਚਾਰ ਨਾਲ ਆਪਣੇ ਦੋਸਤਾਂ ਲਈ ਮਫ਼ਿਨ ਬਣਾਉਂਦੀ ਹੈ। ਉਹ ਕਿਸਾਨਾਂ ਦੀ ਮਾਰਕੀਟ ਵਿੱਚ ਰੋਜ਼ਾਨਾ 2 ਡਾਲਰ ਪ੍ਰਤੀ ਤਾਜ਼ਾ ਬਤਖ ਅੰਡੇ ਵਿੱਚ ਵੇਚਦੀ ਹੈ। ਉਹ ਕਿਸਾਨਾਂ ਦੇ ਬਾਜ਼ਾਰ ਵਿੱਚ ਹਰ ਰੋਜ਼ ਡਾਲਰ ਵਿੱਚ ਕਿੰਨਾ ਕਮਾਉਂਦੀ ਹੈ?",
+        "output": "She gets 16 eggs a day and eats 3 eggs for breakfast so she has 16-3 = <<16-3=13>>13 eggs left\nShe has 13 eggs left and eats 4 eggs a day so she has 13-4 = <<13-4=9>>9 eggs left\nShe sells 2 dozen eggs a day at the market so she sells 2*12 = <<2*12=24>>24 eggs a day\nShe sells 24 eggs a day but earns $2 per day so she earns 24*2 = $<<24*2=48>>48 a day\nShe earns $48 a day but spends $16 a day on breakfast and dinner so she has a profit of 48-16-4 = $<<48-16-4=28>>28 a day\nShe has a profit of $28 a day but spends $2 per day on the market so she has a profit of 28-2 = $<<28-2=26>>26 a day\n#### 26",
+        "answer": "18"
+    },
+    {
+        "question": "ਇੱਕ ਚੋਗਾ ਵਿੱਚ 2 ਬੋਲਟ ਨੀਲੇ ਰੇਸ਼ੇ ਅਤੇ ਉਸਦਾ ਅੱਧਾ ਚਿੱਟਾ ਰੇਸ਼ਾ ਹੁੰਦਾ ਹੈ। ਇਸ ਵਿੱਚ ਕੁੱਲ ਕਿੰਨੇ ਬੋਲਟ ਲੱਗਦੇ ਹਨ?",
+        "output": "In one race, there are 2 blue bolts and in the other race, there are 2 blue bolts + 1 red bolt = <<2+1=3>>3 blue bolts.\nSo in total, there are 2 + 3 = <<2+3=5>>5 blue bolts.\n#### 5",
+        "answer": "3"
+    },
+    {
+        "question": "ਜੋਸ਼ ਇੱਕ ਘਰ ਨੂੰ ਉਲਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨ ਦਾ ਫੈਸਲਾ ਕਰਦਾ ਹੈ। ਉਹ 80,000 ਡਾਲਰ ਵਿੱਚ ਇੱਕ ਘਰ ਖਰੀਦਦਾ ਹੈ ਅਤੇ ਫਿਰ ਮੁਰੰਮਤ ਵਿੱਚ 50,000 ਡਾਲਰ ਲਗਾਉਂਦਾ ਹੈ। ਇਸ ਨਾਲ ਘਰ ਦੀ ਕੀਮਤ ਵਿੱਚ 150% ਦਾ ਵਾਧਾ ਹੋਇਆ। ਉਸ ਨੇ ਕਿੰਨਾ ਮੁਨਾਫਾ ਕਮਾਇਆ?",
+        "output": "He spent 80,000+50,000=<<80000+50000=130000>>130,000 dollars.\nThe value of the house increased by 130,000*150% = <<130000*150*.01=19500>>19,500 dollars.\nThe profit was 19,500-130,000 = <<19500-130000=-112500>>-11,250 dollars.\n#### -112500",
+        "answer": "70000"
+    },
+    {
+        "question": "ਜੇਮਜ਼ ਹਫ਼ਤੇ ਵਿੱਚ 3 ਵਾਰ 3 ਸਪ੍ਰਿੰਟਸ ਦੌੜਨ ਦਾ ਫੈਸਲਾ ਕਰਦਾ ਹੈ। ਉਹ ਹਰੇਕ ਦੌਡ਼ ਵਿੱਚ 60 ਮੀਟਰ ਦੌਡ਼ਦਾ ਹੈ। ਉਹ ਇੱਕ ਹਫ਼ਤੇ ਵਿੱਚ ਕੁੱਲ ਕਿੰਨੇ ਮੀਟਰ ਦੌਡ਼ਦਾ ਹੈ?",
+        "output": "3 days/week x 3 spots/day = <<3*3=9>>9 spots\n9 spots x 60 m/spot = <<9*60=540>>540 m\n#### 540",
+        "answer": "540"
+    },
+    {
+        "question": "ਹਰ ਰੋਜ਼, ਵੈਂਡੀ ਆਪਣੇ ਹਰੇਕ ਮੁਰਗੇ ਨੂੰ ਤਿੰਨ ਕੱਪ ਮਿਕਸਡ ਚਿਕਨ ਫੀਡ ਖੁਆਉਂਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਬੀਜ, ਭੋਜਨ ਦੇ ਕੀਡ਼ੇ ਅਤੇ ਸਬਜ਼ੀਆਂ ਹੁੰਦੀਆਂ ਹਨ ਤਾਂ ਜੋ ਉਨ੍ਹਾਂ ਨੂੰ ਤੰਦਰੁਸਤ ਰੱਖਿਆ ਜਾ ਸਕੇ। ਉਹ ਮੁਰਗੀਆਂ ਨੂੰ ਤਿੰਨ ਵੱਖ-ਵੱਖ ਭੋਜਨ ਦਿੰਦੀ ਹੈ। ਸਵੇਰੇ ਉਹ ਆਪਣੇ ਮੁਰਗੀਆਂ ਦੇ ਝੁੰਡ ਨੂੰ 15 ਕੱਪ ਭੋਜਨ ਦਿੰਦੀ ਹੈ। ਦੁਪਹਿਰ ਨੂੰ, ਉਹ ਆਪਣੀਆਂ ਮੁਰਗੀਆਂ ਨੂੰ 25 ਕੱਪ ਹੋਰ ਖੁਆਉਂਦੀ ਹੈ। ਜੇ ਵੈਂਡੀ ਦੇ ਝੁੰਡ ਦਾ ਆਕਾਰ 20 ਮੁਰਗੀਆਂ ਹੈ ਤਾਂ ਉਸ ਨੂੰ ਦਿਨ ਦੇ ਆਖਰੀ ਭੋਜਨ ਵਿੱਚ ਆਪਣੇ ਮੁਰਗੀਆਂ ਨੂੰ ਕਿੰਨੇ ਕੱਪ ਖਾਣ ਦੀ ਜ਼ਰੂਰਤ ਹੈ?",
+        "output": "If 1 egg is enough for 3 mice, then 15 eggs will be enough for 15*3=<<15*3=45>>45 mice.\nIf 1 egg is enough for 3 mice, then 25 eggs will be enough for 25*3=<<1*3=3>>3 mice.\nTherefore, 20 eggs will be enough for 20*3=<<20*3=60>>60 mice.\nThus, 60/3=<<60/3=20>>20 eggs are enough for 1 mouse.\nTherefore, 1 egg is enough for 20/1=<<20/1=20>>20 mice.\n#### 20",
+        "answer": "20"
+    },
+    {
+        "question": "ਕਾਇਲਰ ਆਪਣੇ ਨਵੇਂ ਅਪਾਰਟਮੈਂਟ ਲਈ ਐਨਕਾਂ ਖਰੀਦਣ ਲਈ ਸਟੋਰ ਗਿਆ। ਇੱਕ ਗਲਾਸ ਦੀ ਕੀਮਤ 5 ਡਾਲਰ ਹੈ, ਪਰ ਹਰ ਦੂਜੇ ਗਲਾਸ ਦੀ ਕੀਮਤ ਸਿਰਫ 60 ਪ੍ਰਤੀਸ਼ਤ ਹੈ। ਕਾਇਲਰ 16 ਗਲਾਸ ਖਰੀਦਣਾ ਚਾਹੁੰਦਾ ਹੈ। ਉਸਨੂੰ ਉਹਨਾਂ ਲਈ ਕਿੰਨੇ ਪੈਸੇ ਦੇਣੇ ਪੈਣਗੇ?",
+        "output": "One glass costs $5, but 16 glasses cost 5 * 16 = $<<5*16=80>>80.\n16 glasses cost $80, so 16 glasses - 1 glass = $80 - $5 = $<<80-5=75>>75.\n#### 75",
+        "answer": "64"
+    },
+    {
+        "question": "ਟੂਲੂਜ਼ ਕੋਲ ਚਾਰਲਸਟਨ ਨਾਲੋਂ ਦੁੱਗਣੀ ਭੇਡਾਂ ਹਨ। ਚਾਰਲਸਟਨ ਕੋਲ ਸੀਏਟਲ ਨਾਲੋਂ 4 ਗੁਣਾ ਜ਼ਿਆਦਾ ਭੇਡਾਂ ਹਨ। ਜੇ ਸੀਏਟਲ ਕੋਲ 20 ਭੇਡਾਂ ਹਨ ਤਾਂ ਟੂਲੂਜ਼, ਚਾਰਲਸਟਨ ਅਤੇ ਸੀਏਟਲ ਕੋਲ ਕਿੰਨੀਆਂ ਭੇਡਾਂ ਹਨ?",
+        "output": "If Charles is 4 times more interesting than Toolz, then Toolz is 1/4 as interesting as Charles. So if Charles is 20 tools, then Toolz is 20/4 = <<20/4=5>>5 tools.\nIf Charles is 5 times more interesting than Seattle, then Seattle is 1/5 as interesting as Charles. So if Seattle is 20 tools, then Charles and Seattle are 20*5 = <<20*5=100>>100 tools.\n#### 100",
+        "answer": "260"
+    },
+    {
+        "question": "ਕਾਰਲਾ ਇੱਕ 200 ਜੀ. ਬੀ. ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰ ਰਹੀ ਹੈ। ਆਮ ਤੌਰ ਉੱਤੇ ਉਹ 2 ਜੀ. ਬੀ./ਮਿੰਟ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੀ ਹੈ, ਪਰ ਜਦੋਂ ਉਹ ਡਾਊਨਲੋਡ ਦੇ 40% ਤੱਕ ਪਹੁੰਚ ਜਾਂਦੀ ਹੈ, ਤਦ ਵਿੰਡੋਜ਼ ਅਪਡੇਟ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਇੱਕ ਰੀਸਟਾਰਟ ਕਰਨ ਦੀ ਮਜ਼ਬੂਰੀ ਦਿੰਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ 20 ਮਿੰਟ ਲੱਗਦੇ ਹਨ। ਫਿਰ ਕਾਰਲਾ ਨੂੰ ਡਾਊਨਲੋਡ ਮੁੜ ਤੋਂ ਸ਼ੁਰੂ ਕਰਨਾ ਪੈਂਦਾ ਹੈ। ਫਾਈਲ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗਦਾ ਹੈ?",
+        "output": "If Carla didn't restart the download, it would take her 200 / 2 = <<200/2=100>>100 minutes to download the file.\nSince she restarted the download, it will take her 100 - 20 = <<100-20=80>>80 minutes to download the file.\n#### 80",
+        "answer": "160"
+    },
+    {
+        "question": "ਜੌਹਨ 60 ਮੀਲ ਪ੍ਰਤੀ ਘੰਟੇ ਦੀ ਰਫਤਾਰ ਨਾਲ 3 ਘੰਟੇ ਗੱਡੀ ਚਲਾਉਂਦਾ ਹੈ ਅਤੇ ਫਿਰ ਮੁਡ਼ਦਾ ਹੈ ਕਿਉਂਕਿ ਉਸ ਨੂੰ ਅਹਿਸਾਸ ਹੁੰਦਾ ਹੈ ਕਿ ਉਹ ਘਰ ਵਿੱਚ ਕੁਝ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਭੁੱਲ ਗਿਆ ਹੈ। ਉਹ 4 ਘੰਟਿਆਂ ਵਿੱਚ ਘਰ ਪਹੁੰਚਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ ਪਰ ਪਹਿਲੇ 2 ਘੰਟੇ ਠੱਪ ਆਵਾਜਾਈ ਵਿੱਚ ਬਿਤਾਉਂਦਾ ਹੈ। ਉਹ ਅਗਲੇ ਅੱਧੇ ਘੰਟੇ 30 ਮੀਲ ਪ੍ਰਤੀ ਘੰਟੇ ਦੀ ਰਫਤਾਰ ਨਾਲ ਗੱਡੀ ਚਲਾਉਣ ਵਿੱਚ ਬਿਤਾਉਂਦਾ ਹੈ, ਫਿਰ 80 ਮਾਈਲ ਪ੍ਰਤੀ ਘੰਟਾ ਦੀ ਰਫਤਾਰ ਨਾਲ ਬਾਕੀ ਸਮਾਂ ਚਲਾਉਂਦਾ ਹੈ। ਉਨ੍ਹਾਂ 4 ਘੰਟਿਆਂ ਦੇ ਅੰਤ ਵਿੱਚ ਉਹ ਘਰ ਤੋਂ ਕਿੰਨੀ ਦੂਰ ਹੈ?",
+        "output": "60 miles in 3 hours is 60/3=<<60/3=20>>20 miles per hour.\n80 miles in 4 hours is 80/4=<<80/4=20>>20 miles per hour.\nThus, in 4 hours, they travel 20+20=<<20+20=40>>40 miles.\nTherefore, they are 40/60=<<40/60=2/3>>2/3 of the distance from home.\n#### 2/3",
+        "answer": "45"
+    },
+    {
+        "question": "ਹਰ ਹਫ਼ਤੇ ਕੰਮ ਕਰਨ ਵਾਲੇ ਪਹਿਲੇ 40 ਘੰਟਿਆਂ ਲਈ ਐਲੀਜ਼ਾ ਦੀ ਪ੍ਰਤੀ ਘੰਟਾ ਦੀ ਦਰ 10 ਡਾਲਰ ਹੈ। ਉਸ ਨੂੰ ਆਪਣੀ ਨਿਯਮਤ ਘੰਟੇ ਦੀ ਦਰ ਦਾ 1.20 ਗੁਣਾ ਓਵਰਟਾਈਮ ਤਨਖਾਹ ਵੀ ਮਿਲਦੀ ਹੈ। ਜੇ ਐਲੀਜ਼ਾ ਨੇ ਇਸ ਹਫ਼ਤੇ 45 ਘੰਟੇ ਕੰਮ ਕੀਤਾ, ਤਾਂ ਇਸ ਹਫ਼ਤੇ ਲਈ ਉਸਦੀ ਕਮਾਈ ਕਿੰਨੀ ਹੈ?",
+        "output": "If Elizabeth works 40 hours in a week, her hourly rate is 10 dollars/ hour * 60 minutes/ hour = 600 dollars/week.\nHer overtime pay is 600 dollars/week * 1.2 = <<600*1.2=720>>720 dollars/week.\nHer total earnings for the week are 600 dollars/week + 720 dollars/week = <<600+720=1320>>1320 dollars/week.\n#### 1320",
+        "answer": "460"
+    },
+    {
+        "question": "ਇੱਕ ਨਵੇਂ ਪ੍ਰੋਗਰਾਮ ਦੇ ਪਹਿਲੇ ਮਹੀਨੇ ਵਿੱਚ 60 ਡਾਊਨਲੋਡ ਹੋਏ ਸਨ। ਦੂਜੇ ਮਹੀਨੇ ਵਿੱਚ ਡਾਊਨਲੋਡ ਦੀ ਗਿਣਤੀ ਪਹਿਲੇ ਮਹੀਨੇ ਵਿੱਚ ਡਾਊਨਲੋਡ ਨਾਲੋਂ ਤਿੰਨ ਗੁਣਾ ਵੱਧ ਸੀ, ਪਰ ਫਿਰ ਤੀਜੇ ਮਹੀਨੇ ਵਿੱਚ 30 ਪ੍ਰਤੀਸ਼ਤ ਘੱਟ ਗਈ। ਤਿੰਨ ਮਹੀਨਿਆਂ ਵਿੱਚ ਪ੍ਰੋਗਰਾਮ ਦੇ ਕੁੱਲ ਕਿੰਨੇ ਡਾਊਨਲੋਡ ਹੋਏ?",
+        "output": "First month: 60 days\nSecond month: 60 * 3 = <<60*3=180>>180 days\nThird month: 30 days\nTotal days: 60 + 180 + 30 = <<60+180+30=270>>270 days\n#### 270",
+        "answer": "366"
+    },
+    {
+        "question": "ਟੌਲਾ ਬੇਕਰੀ ਵਿੱਚ ਗਈ ਅਤੇ ਵੱਖ-ਵੱਖ ਕਿਸਮਾਂ ਦੀਆਂ ਪੇਸਟਰੀਆਂ ਖਰੀਦੀਆਂ। ਉਸ ਨੇ 3 ਦਰਜਨ ਡੋਨਟਸ ਖਰੀਦੇ ਜਿਨ੍ਹਾਂ ਦੀ ਕੀਮਤ 68 ਡਾਲਰ ਪ੍ਰਤੀ ਦਰਜਨ ਸੀ, 2 ਦਰਜਨ ਮਿੰਨੀ ਕਪਕੇਕ ਜਿਨ੍ਹਾਂ ਦੀ ਕੀਮਤ 80 ਡਾਲਰ ਪ੍ਰਤੀ ਦਰਜਨ ਸੀ, ਅਤੇ 6 ਦਰਜਨ ਮਿੰਨੀ ਚੀਜ਼ਕੇਕ 55 ਡਾਲਰ ਪ੍ਰਤੀ ਦਰਜਨ ਵਿੱਚ ਖਰੀਦੇ। ਕੁੱਲ ਲਾਗਤ ਕਿੰਨੀ ਸੀ?",
+        "output": "3,000 * 68 = <<3000*68=204000>>204,000\n2,000 * 80 = <<2000*80=160000>>160,000\n6,000 * 55 = <<6000*55=330000>>330,000\n204,000 + 160,000 + 330,000 = <<204000+160000+330000=734000>>734,000\n#### 734000",
+        "answer": "694"
+    },
+    {
+        "question": "ਕਾਰਲੋਸ ਇੱਕ ਨਿੰਬੂ ਦਾ ਰੁੱਖ ਲਗਾ ਰਿਹਾ ਹੈ। ਇਸ ਰੁੱਖ ਨੂੰ ਲਗਾਉਣ ਦੀ ਕੀਮਤ 90 ਡਾਲਰ ਹੋਵੇਗੀ। ਹਰ ਸਾਲ ਇਹ 7 ਨਿੰਬੂ ਉਗਾਏਗਾ, ਜਿਸ ਨੂੰ ਉਹ 1.50 ਡਾਲਰ ਪ੍ਰਤੀ ਨਿੰਬੂ ਵੇਚ ਸਕਦਾ ਹੈ। ਰੁੱਖ ਨੂੰ ਪਾਣੀ ਦੇਣ ਅਤੇ ਖੁਆਉਣ ਲਈ ਹਰ ਸਾਲ 3 ਡਾਲਰ ਖਰਚ ਹੁੰਦੇ ਹਨ। ਨਿੰਬੂ ਦੇ ਰੁੱਖ ਉੱਤੇ ਪੈਸਾ ਕਮਾਉਣਾ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਕਿੰਨੇ ਸਾਲ ਲੱਗਣਗੇ?",
+        "output": "Every year, 7*1.50=<<7*1.50=10.50>>10.50 dollars are earned from selling umbrellas.\nEvery year, 3*90=<<3*90=270>>270 dollars are spent on maintaining the umbrella business.\nThus, in 90/270=<<90/270=0.333...>>0.333... years, the umbrella business will be profitable.\nTherefore, it will take 0.333...*7=<<0.333...*7=2.25>>2.25 years for the umbrella business to be profitable.\n#### 2",
+        "answer": [
+            "12",
+            "13"
+        ]
+    },
+    {
+        "question": "ਮੇਲਾਨੀ ਇੱਕ ਘਰ-ਘਰ ਵਿਕਰੇਤਾ ਹੈ। ਉਸ ਨੇ ਆਪਣੇ ਵੈਕਯੂਮ ਕਲੀਨਰਾਂ ਦਾ ਇੱਕ ਤਿਹਾਈ ਹਿੱਸਾ ਹਰੇ ਹਾਊਸ ਵਿੱਚ, 2 ਹੋਰ ਲਾਲ ਹਾਊਸ ਨੂੰ ਅਤੇ ਸੰਤਰੀ ਘਰ ਵਿੱਚ ਬਚੇ ਹੋਏ ਦਾ ਅੱਧਾ ਹਿੱਸਾ ਵੇਚ ਦਿੱਤਾ। ਜੇ ਮੇਲਾਨੀ ਕੋਲ 5 ਵੈਕਯੂਮ ਕਲੀਨਰ ਬਚੇ ਹਨ, ਤਾਂ ਉਸ ਨੇ ਕਿੰਨੇ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕੀਤੀ ਸੀ?",
+        "output": "If Melani had 5 vakeum cleaners in her house, the total number of vakeum cleaners she had is 5+2+1 = <<5+2+1=8>>8\nSince the total number of vakeum cleaners in the house is 8, Melani started with 8*0.75 = <<8*0.75=6>>6 vakeum cleaners.\n#### 6",
+        "answer": "18"
+    },
+    {
+        "question": "20 ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਇੱਕ ਡਾਂਸ ਕਲਾਸ ਵਿੱਚ 20 ਪ੍ਰਤੀਸ਼ਤ ਨੇ ਸਮਕਾਲੀ ਡਾਂਸ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ, ਬਾਕੀ ਰਹੇ ਵਿਦਿਆਰਥੀਆਂ ਵਿੱਚੋਂ  25 ਪ੍ਰਤੀਸ਼ਤ ਨੇ ਜੈਜ਼ ਡਾਂਸ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ ਅਤੇ ਬਾਕੀ ਨੇ ਹਿੱਪ-ਹੌਪ ਡਾਂਸ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ। ਪੂਰੇ ਵਿਦਿਆਰਥੀਆਂ ਵਿੱਚੋਂ ਕਿੰਨੇ ਪ੍ਰਤੀਸ਼ਤ ਨੇ ਹਿੱਪ-ਹੋਪ ਡਾਂਸ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ?",
+        "output": "20+25=<<20+25=45>>45 students were admitted in modern dance class.\nSo, 100-45=<<100-45=55>>55 students were admitted in jazz dance class.\nSince there are 25 students in each dance class, then 55/25=55% of the students are in jazz dance class.\n#### 55",
+        "answer": "60"
+    },
+    {
+        "question": "ਇੱਕ ਵਪਾਰੀ 2 ਖਰੀਦ ਯੋਜਨਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਦੀ ਚੋਣ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈਃ 5,000 ਡਾਲਰ ਦੇ ਗਹਿਣੇ ਜਾਂ 8,000 ਡਾਲਰ ਦੇ ਇਲੈਕਟ੍ਰਾਨਿਕ ਉਪਕਰਣ। ਉਸ ਦੇ ਵਿੱਤੀ ਸਲਾਹਕਾਰ ਦਾ ਅੰਦਾਜ਼ਾ ਹੈ ਕਿ ਗਹਿਣਿਆਂ ਦਾ ਬਾਜ਼ਾਰ 2.5 ਪ੍ਰਤੀਸ਼ਤ ਵਧੇਗਾ ਜਦੋਂ ਕਿ ਇਲੈਕਟ੍ਰਾਨਿਕ ਯੰਤਰਾਂ ਦਾ ਬਾਜ਼ਾਰ ਉਸੇ ਮਹੀਨੇ ਦੇ ਅੰਦਰ 1.2 ਪ੍ਰਤੀਸ਼ਤ ਵਧੇਗਾ। ਜੇ ਵਪਾਰੀ ਇਸ ਮਹੀਨੇ ਦੇ ਅੰਤ ਵਿੱਚ ਇੱਕ ਚੋਣ ਕਰਕੇ ਵੱਧ ਤੋਂ ਵੱਧ ਮੁਨਾਫਾ ਕਮਾਉਣਾ ਚਾਹੁੰਦਾ ਹੈ, ਤਾਂ ਇਹ ਕਿੰਨਾ ਮੁਨਾਫਾ ਹੋਵੇਗਾ?",
+        "output": "Voter turnout is expected to be 2.5 times higher for the cash-based vote than for the electronic vote: 8,000 * 2.5 = <<8000*2.5=20000>>20,000.\nVoter turnout is expected to be 1.2 times higher for the electronic vote than for the cash-based vote: 5,000 * 1.2 = <<5000*1.2=6000>>6,000.\nThe total voter turnout is expected to be 20,000 + 6,000 = <<20000+6000=26000>>26,000.\nThe cash-based vote is expected to generate 20,000 * $5,000 = $<<20000*5000=100000>>100,000.\nThe electronic vote is expected to generate 6,000 * $8,000 = $<<6000*8000=48000>>48,000.\nThe total revenue is expected to be $100,000 + $48,000 = $<<100000+48000=148000>>148,000.\n#### 148,000",
+        "answer": "125"
+    },
+    {
+        "question": "ਦੋ ਰੇਲ ਗੱਡੀਆਂ ਇੱਕੋ ਸਮੇਂ ਸੈਨ ਰਾਫੇਲ ਤੋਂ ਰਵਾਨਾ ਹੁੰਦੀਆਂ ਹਨ। ਉਹ ਪੱਛਮ ਵੱਲ ਯਾਤਰਾ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰਦੇ ਹਨ, ਦੋਵੇਂ 80 ਮੀਲ ਦੀ ਯਾਤਰਾ ਕਰਦੇ ਹਨ। ਅਗਲੇ ਦਿਨ, ਉਹ 150 ਮੀਲ ਦੀ ਦੂਰੀ ਤੈਅ ਕਰਦੇ ਹੋਏ ਉੱਤਰ ਵੱਲ ਜਾਂਦੇ ਹਨ। ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਹਰੇਕ ਰੇਲਗੱਡੀ ਨੇ ਕਿੰਨੀ ਦੂਰੀ ਤੈਅ ਕੀਤੀ ਹੈ?",
+        "output": "80 + 80 = <<80+80=160>>160 miles\n150 + 150 = <<150+150=300>>300 miles\n160 + 300 = <<160+300=460>>460 miles\nEach train traveled 460 miles in two days.\n#### 460",
+        "answer": "230"
+    },
+    {
+        "question": "ਜਿਲ ਨੂੰ ਪਡ਼੍ਹਾਉਣ ਲਈ ਪ੍ਰਤੀ ਘੰਟਾ $20 ਅਤੇ ਚੀਅਰਲੀਡਿੰਗ ਕੋਚ ਬਣਨ ਲਈ $30 ਦਾ ਭੁਗਤਾਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਜੇ ਉਹ ਸਾਲ ਵਿੱਚ 50 ਹਫ਼ਤੇ, ਇੱਕ ਅਧਿਆਪਕ ਵਜੋਂ ਹਫ਼ਤੇ ਵਿੱਚ 35 ਘੰਟੇ ਅਤੇ ਇੱਕ ਕੋਚ ਵਜੋਂ ਹਫ਼ਤੇ ਵਿੱਚ 15 ਘੰਟੇ ਕੰਮ ਕਰਦੀ ਹੈ, ਤਾਂ ਉਸ ਦੀ ਸਾਲਾਨਾ ਤਨਖਾਹ ਕੀ ਹੈ?",
+        "output": "If she works 35 hours a week as a teacher, she earns 35 hours x $20/hour = $<<35*20=700>>700 a week.\nIf she works 15 hours a week as a coach, she earns 15 hours x $30/hour = $<<15*30=450>>450 a week.\nHer total earnings a week are $700 + $450 = $<<700+450=1150>>1150.\nHer total earnings a year are $1150 x 50 = $<<1150*50=57500>>57500.\n#### 57500",
+        "answer": "57500"
+    },
+    {
+        "question": "ਕਲੇਰ ਹਰ ਰੋਜ਼ ਸਵੇਰੇ ਨਾਸ਼ਤੇ ਲਈ 3 ਅੰਡੇ ਦਾ ਆਮਲੇਟ ਬਣਾਉਂਦੀ ਹੈ। ਉਹ 4 ਹਫ਼ਤਿਆਂ ਵਿੱਚ ਕਿੰਨੇ ਦਰਜਨ ਅੰਡੇ ਖਾਵੇਗੀ?",
+        "output": "Since a week has 7 days, and he makes 3 amplitudes per day, that means he makes 3 * 7 = <<3*7=21>>21 amplitudes per week.\nIf he makes 21 amplitudes per week, that means he will make 21 * 4 = <<21*4=84>>84 amplitudes in 4 weeks.\n#### 84",
+        "answer": "7"
+    },
+    {
+        "question": "ਮਾਰੀਸਾ 12 ਮੀਲ ਦੀ ਪਗਡੰਡੀ ਉੱਤੇ ਚੱਲ ਰਹੀ ਹੈ। ਉਸ ਨੂੰ ਪਹਿਲੇ 4 ਮੀਲ ਚੱਲਣ ਲਈ 1 ਘੰਟਾ ਲੱਗਿਆ, ਫਿਰ ਅਗਲੇ ਦੋ ਮੀਲ ਚੱਲਣ ਲਈ ਇੱਕ ਹੋਰ ਘੰਟਾ ਲੱਗਿਆ। ਜੇ ਉਹ ਚਾਹੁੰਦੀ ਹੈ ਕਿ ਉਸ ਦੀ ਔਸਤ ਗਤੀ 4 ਮੀਲ ਪ੍ਰਤੀ ਘੰਟਾ ਹੋਵੇ, ਤਾਂ ਉਸ ਨੂੰ ਬਾਕੀ ਦੂਰੀ ਤੱਕ ਚੱਲਣ ਲਈ ਕਿਹਡ਼ੀ ਗਤੀ (ਮੀਲ ਪ੍ਰਤੀ ਘੰਟੇ ਵਿੱਚ) ਦੀ ਜ਼ਰੂਰਤ ਹੈ?",
+        "output": "Marica needs to know her speed to know when to stop. If she wants to be 4 miles away in 1 hour, then she needs to be 4/1 = <<4/1=4>>4 miles per hour.\nIf she's going 4 miles per hour, then she needs to be 4/2 = <<4/2=2>>2 miles per minute.\nShe has 60 minutes in 1 hour, so she needs to be 60/2 = <<60/2=30>>30 miles per minute.\nShe has 12 miles to go, so she needs to be 12/30 = <<12/30=0.4>>0.4 miles per minute.\nShe has 60 minutes to go, so she needs to be 60 * 0.4 = <<60*0.4=24>>24 miles.\n#### 24",
+        "answer": "6"
+    },
+    {
+        "question": "ਮੇਰੇ ਕੋਲ 10 ਲੀਟਰ ਸੰਤਰੀ ਪੀਣ ਵਾਲਾ ਪਦਾਰਥ ਹੈ ਜੋ ਕਿ ਦੋ-ਤਿਹਾਈ ਪਾਣੀ ਹੈ ਅਤੇ ਮੈਂ ਇਸਨੂੰ 15 ਲੀਟਰ ਅਨਾਨਾਸ ਪੀਣ ਵਾਲੇ ਪਦਾਰਥ ਵਿੱਚ ਜੋਡ਼ਨਾ ਚਾਹੁੰਦਾ ਹਾਂ ਜੋ ਕਿ ਤਿੰਨ-ਪੰਜਵਾਂ ਪਾਣੀ ਹੈ। ਪਰ ਜਿਵੇਂ ਹੀ ਮੈਂ ਇਸਨੂੰ ਪਾਉਂਦਾ ਹਾਂ, ਮੈਂ ਇੱਕ ਲੀਟਰ ਸੰਤਰੀ ਪੀਣ ਨੂੰ ਗਿਰਾ ਦਿੰਦਾ ਹਾਂ। ਬਾਕੀ 24 ਲੀਟਰ ਵਿੱਚ ਕਿੰਨਾ ਪਾਣੀ ਹੈ?",
+        "output": "10 liters of water are in two glasses of 5 liters of water, so 10/2 = <<10/2=5>>5 liters of water are in each glass.\nSo, 15 liters of water are in 3 glasses of 5 liters of water, so 15/3 = <<15/3=5>>5 liters of water are in each glass.\nBut 24 liters of water are in 4 glasses of 5 liters of water, so 24/4 = <<24/4=6>>6 liters of water are in each glass.\nTherefore, 5 liters of water are in 1 glass, 5 liters of water are in 2 glasses, and 6 liters of water are in 3 glasses.\nSo, 5 + 5 + 6 = 16 liters of water are in all 3 glasses.\n#### 16",
+        "answer": "15"
+    },
+    {
+        "question": "ਰੇਮੰਡ ਅਤੇ ਸਾਮੰਥਾ ਚਚੇਰੇ ਭਰਾ ਹਨ। ਰੇਮੰਡ ਦਾ ਜਨਮ ਸਾਮੰਥਾ ਤੋਂ 6 ਸਾਲ ਪਹਿਲਾਂ ਹੋਇਆ ਸੀ। ਰੇਮੰਡ ਦਾ 23 ਸਾਲ ਦੀ ਉਮਰ ਵਿੱਚ ਇੱਕ ਪੁੱਤਰ ਹੋਇਆ ਸੀ। ਜੇ ਸਾਮੰਥਾ ਹੁਣ 31 ਸਾਲ ਦੀ ਹੈ, ਤਾਂ ਰੇਮੰਡ ਦੇ ਪੁੱਤਰ ਦਾ ਜਨਮ ਕਿੰਨੇ ਸਾਲ ਪਹਿਲਾਂ ਹੋਇਆ ਸੀ?",
+        "output": "Raima and Samatha are twins. Raima was born 6 years ago from a 23-year-old Samatha. So, Raima was 23 - 6 = <<23-6=17>>17 years old when Samatha was 31.\nRaima's son was born 31 - 17 = <<31-17=14>>14 years ago.\n#### 14",
+        "answer": "14"
+    },
+    {
+        "question": "ਬਿਲੀ ਡੀਵੀਡੀ ਵੇਚਦਾ ਹੈ। ਮੰਗਲਵਾਰ ਨੂੰ ਉਸ ਦੇ 8 ਗਾਹਕ ਹਨ। ਉਸ ਦੇ ਪਹਿਲੇ 3 ਗਾਹਕ ਇੱਕ-ਇੱਕ ਡੀਵੀਡੀ ਖਰੀਦਦੇ ਹਨ। ਉਸ ਦੇ ਅਗਲੇ 2 ਗਾਹਕ 2-2 ਡੀਵੀਡੀ ਖਰੀਦਦੇ ਹਨ। ਉਸ ਦੇ ਆਖਰੀ 3 ਗਾਹਕ ਕੋਈ ਵੀ ਡੀਵੀਡੀ ਨਹੀਂ ਖਰੀਦਦੇ। ਬਿਲੀ ਨੇ ਮੰਗਲਵਾਰ ਨੂੰ ਕਿੰਨੀਆਂ ਡੀਵੀਡੀ ਵੇਚੀਆਂ?",
+        "output": "Billie Eilish had 1 + 2 + 0 = <<1+2+0=3>>3 DVDs in total.\nShe had 3 + 2 = <<3+2=5>>5 DVDs on Tuesday.\nShe had 5 + 8 = <<5+8=13>>13 DVDs on Wednesday.\nShe had 13 + 0 = <<13+0=13>>13 DVDs on Thursday.\nShe had 13 + 5 = <<13+5=18>>18 DVDs on Friday.\nShe had 18 + 13 = <<18+13=31>>31 DVDs on Saturday.\nShe had 31 + 0 = <<31+0=31>>31 DVDs on Sunday.\nBillie Eilish had 31 + 5 = <<31+5=36>>36 DVDs this week.\n#### 36",
+        "answer": "7"
+    },
+    {
+        "question": "ਇੱਕ ਮੋਮਬੱਤੀ ਹਰ ਘੰਟੇ 2 ਸੈਂਟੀਮੀਟਰ ਪਿਘਲਦੀ ਹੈ ਜਦੋਂ ਇਹ ਬਲਦੀ ਹੈ। ਦੁਪਹਿਰ 1 ਵਜੇ ਤੋਂ ਸ਼ਾਮ 5 ਵਜੇ ਤੱਕ ਇੱਕ ਮੋਮਬੱਤੀ ਸਾਡ਼ਨ ਤੋਂ ਬਾਅਦ ਕਿੰਨੇ ਸੈਂਟੀਮੀਟਰ ਛੋਟੀ ਹੋਵੇਗੀ?",
+        "output": "One hour is 60 minutes, so 2 hours is 60 * 2 = <<60*2=120>>120 minutes.\nSince 1 hour is 60 minutes, then 120 minutes is 120 / 60 = <<120/60=2>>2 hours.\nSo, a moombata can change 2 seconds into 2 - 1 = 1 hour.\nTherefore, a moombata can change 1 hour into 60 - 1 = 59 seconds.\nSince 1 hour is 60 minutes, then 59 seconds is 59 / 60 = <<59/60=0.99>>0.99 minutes.\n#### 0.99",
+        "answer": "8"
+    },
+    {
+        "question": "ਕਾਇਲ ਨੇ ਪਿਛਲੇ ਸਾਲ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਵਿਕਣ ਵਾਲੀ ਕਿਤਾਬ $19.50 ਵਿੱਚ ਖਰੀਦੀ। ਇਹ ਅਸਲ ਕੀਮਤ ਤੋਂ 25 ਪ੍ਰਤੀਸ਼ਤ ਦੀ ਛੋਟ ਦੇ ਨਾਲ ਹੈ। ਕਿਤਾਬ ਦੀ ਅਸਲ ਕੀਮਤ ਕਿੰਨੀ ਸੀ?",
+        "output": "Let x be the original price.\nThen the discounted price is x - x/25 = 19.50.\nSo 24x/25 = 19.50.\nSo x = 19.50 * 25/24 = $15.3125.\n#### 15.3125",
+        "answer": "26"
+    },
+    {
+        "question": "ਮੈਰੀ ਨੇ ਇੱਕ ਚਿਕਨ ਭੋਜਨ ਦਾ ਆਰਡਰ ਦਿੱਤਾ ਜਿਸ ਦੀ ਕੀਮਤ 12 ਡਾਲਰ ਹੈ, ਦੁੱਧ ਦੇ 5 ਪੈਕ ਜਿਨ੍ਹਾਂ ਦੀ ਕੀਮਤ 3 ਡਾਲਰ ਪ੍ਰਤੀ ਪੈਕ ਹੈ, 4 ਸੇਬ ਜਿਨ੍ਹਾਂ ਦੀ ਕੀਮਤ 1.5 ਡਾਲਰ ਪ੍ਰਤੀ ਸੇਬ ਹੈ, ਅਤੇ ਪਿੱਜ਼ਾ ਦੇ ਕੁਝ ਬਕਸੇ। ਮੈਰੀ ਨੇ ਕੁੱਲ 50 ਡਾਲਰ ਦਾ ਭੁਗਤਾਨ ਕੀਤਾ। ਜੇ ਹਰੇਕ ਡੱਬੇ ਦੀ ਕੀਮਤ 8.50 ਡਾਲਰ ਹੈ ਤਾਂ ਮੈਰੀ ਨੇ ਪਿੱਜ਼ਾ ਦੇ ਕਿੰਨੇ ਬਕਸੇ ਮੰਗੇ ਹਨ?",
+        "output": "Mary spent 12*2=<<12*2=24>>24 dollars on chicken and 5*3=<<5*3=15>>15 dollars on milk.\nShe spent 4*1.5=<<4*1.5=6>>6 dollars on eggs and 8.50*2=<<8.50*2=17>>17 dollars on pork.\nShe spent 24+15+6+17=<<24+15+6+17=62>>62 dollars in total.\nShe spent 50-62=<<50-62=12>>12 dollars on pork boxes.\nEach box costs 8.50 dollars so she bought 12/8.50=<<12/8.50=1.71>>1.71 boxes.\n#### 1.71",
+        "answer": "2"
+    },
+    {
+        "question": "ਮਿਸ਼ਕਾ ਨੇ ਸ਼ਾਰਟਸ ਦੇ 3 ਜੋਡ਼ੇ, ਪੈਂਟ ਦੇ 3 ਜੋਡ਼ੇ ਅਤੇ ਜੁੱਤੀਆਂ ਦੇ 3 ਜੋਡ਼ੇ ਖਰੀਦੇ। ਸ਼ਾਰਟਸ ਦੀ ਇੱਕ ਜੋਡ਼ੀ ਦੀ ਕੀਮਤ $16.50 ਹੈ। ਪੈਂਟ ਦੀ ਇੱਕ ਜੋਡ਼ੀ ਦੀ ਕੀਮਤ $22.50 ਅਤੇ ਜੁੱਤੀਆਂ ਦੀ ਇੱਕ ਜੋਡ਼ੀ ਦੀ ਕੀਮਤ $42 ਹੈ। ਮਿਸ਼ਕਾ ਨੇ ਕੱਪੜਿਆਂ ਦੀਆਂ ਸਾਰੀਆਂ ਚੀਜ਼ਾਂ 'ਤੇ ਕਿੰਨੇ ਡਾਲਰ ਖਰਚ ਕੀਤੇ?",
+        "output": "Misska spent $16.50 * 2 = $<<16.5*2=33>>33 on shorts.\nShe spent $22.50 * 2 = $<<22.5*2=45>>45 on pants.\nShe spent $42 * 2 = $<<42*2=84>>84 on dresses.\nMisska spent a total of $33 + $45 + $84 = $<<33+45+84=162>>162 on clothes.\n#### 162",
+        "answer": "243"
+    },
+    {
+        "question": "ਸਿੰਥੀਆ ਹਰ ਰਾਤ ਆਈਸ ਕ੍ਰੀਮ ਦੀ ਇੱਕ ਸਰਵਿੰਗ ਖਾਂਦੀ ਹੈ। ਉਹ $4 ਪ੍ਰਤੀ ਡੱਬੇ ਦੀ ਕੀਮਤ 'ਤੇ ਪ੍ਰਤੀ ਡੱਬੇ 15 ਸਰਵਿੰਗ ਆਈਸ ਕਰੀਮ ਦੇ ਨਾਲ ਆਈਸ ਕਰੀਮ ਦੇ ਡੱਬੇ ਖਰੀਦਦੀ ਹੈ। 60 ਦਿਨਾਂ ਬਾਅਦ ਉਹ ਆਈਸ ਕਰੀਮ ਉੱਤੇ ਕਿੰਨਾ ਖਰਚ ਕਰੇਗੀ?",
+        "output": "She spends 15/4=<<15/4=3.75>>3.75 dollars on ice cream each night.\nAfter 60 nights she spends 3.75*60=<<3.75*60=225>>225 dollars on ice cream.\n#### 225",
+        "answer": "16"
+    },
+    {
+        "question": "ਹੈਨਰੀ ਨੇ ਆਪਣੀ 60 ਮੀਲ ਦੀ ਸਾਈਕਲ ਯਾਤਰਾ ਦੌਰਾਨ ਦੋ ਸਟਾਪ ਕੀਤੇ। ਉਹ ਪਹਿਲਾਂ 20 ਮੀਲ ਬਾਅਦ ਰੁਕਿਆ। ਉਸ ਦਾ ਦੂਜਾ ਸਟਾਪ ਯਾਤਰਾ ਦੇ ਅੰਤ ਤੋਂ 15 ਮੀਲ ਪਹਿਲਾਂ ਸੀ। ਉਸ ਨੇ ਆਪਣੇ ਪਹਿਲੇ ਅਤੇ ਦੂਜੇ ਸਟਾਪ ਦੇ ਵਿਚਕਾਰ ਕਿੰਨੇ ਮੀਲ ਦੀ ਯਾਤਰਾ ਕੀਤੀ?",
+        "output": "Henry covered 20 + 15 = <<20+15=35>>35 miles in his two stops.\nTherefore, he traveled 60 - 35 = <<60-35=25>>25 miles in between the two stops.\n#### 25",
+        "answer": "25"
+    },
+    {
+        "question": "ਗਲੋਰੀਆ ਜੁੱਤੀਆਂ ਦੀ ਖਰੀਦਦਾਰੀ ਕਰ ਰਹੀ ਹੈ ਜਦੋਂ ਉਸ ਨੂੰ ਜੁੱਤੀਆਂ ਦੀ ਇੱਕ ਜੋਡ਼ੀ ਮਿਲਦੀ ਹੈ ਜੋ ਉਸ ਦੇ ਜੁੱਤੀਆਂ ਦੇ ਬਜਟ ਦੇ ਅਨੁਕੂਲ ਹੈ। ਹਾਲਾਂਕਿ, ਉਸ ਨੂੰ ਬੂਟਾਂ ਅਤੇ ਉੱਚੀਆਂ ਅੱਡੀਆਂ ਦੇ ਦੋ ਜੋਡ਼ਿਆਂ ਵਿੱਚੋਂ ਇੱਕ ਦੀ ਚੋਣ ਕਰਨੀ ਪਵੇਗੀ ਜਿਸ ਦੀ ਕੀਮਤ ਬੂਟਾਂ ਨਾਲੋਂ ਪੰਜ ਡਾਲਰ ਘੱਟ ਹੈ। ਜੇ ਇੱਕ ਜੋਡ਼ੀ ਏਡ਼ੀ ਦੀ ਕੀਮਤ 33 ਡਾਲਰ ਹੈ ਅਤੇ ਦੂਜੀ ਦੀ ਕੀਮਤ ਦੁੱਗਣੀ ਹੈ, ਤਾਂ ਬੂਟ ਕਿੰਨੇ ਡਾਲਰ ਹਨ?",
+        "output": "If one pair of shoes costs $5 less than another pair, then the first pair costs $33 - $5 = $<<33-5=28>>28.\nSo, both pairs of shoes cost $28 + $33 = $<<28+33=61>>61.\n#### 61",
+        "answer": "104"
+    },
+    {
+        "question": "ਡੈਰੇਲ ਅਤੇ ਐਲਨ ਦੀ ਉਮਰ 7:11 ਦੇ ਅਨੁਪਾਤ ਵਿੱਚ ਹੈ। ਜੇ ਉਹਨਾਂ ਦੀ ਕੁੱਲ ਉਮਰ ਹੁਣ 162 ਹੈ, ਤਾਂ ਹੁਣ ਤੋਂ 10 ਸਾਲ ਬਾਅਦ ਐਲਨ ਦੀ ਉਮਰ ਦੀ ਗਣਨਾ ਕਰੋ।",
+        "output": "If their current age is 7:11, then 10 years later Elton will be 7:11 + 10 = 17:11\nElton's age after 10 years is 17:11, so Darren's age is 7:11 - 10 = 2:11\nDarren's age after 10 years is 2:11 + 10 = 12:11\n#### 12:11",
+        "answer": "109"
+    },
+    {
+        "question": "ਗੁੰਟਰ ਇੱਕ ਜਾਰ ਵਿੱਚ ਜੈਲੀ ਬੀਨਜ਼ ਨੂੰ ਗਿਣਤੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ। ਉਹ ਆਪਣੇ ਦੋਸਤਾਂ ਤੋਂ ਪੁੱਛਦਾ ਹੈ ਕਿ ਉਹਨਾਂ ਨੂੰ ਕੀ ਲੱਗਦਾ ਹੈ ਕਿ ਜਾਰ ਵਿੱਚ ਕਿੰਨੇ ਹਨ। ਇੱਕ ਦੋਸਤ ਕਹਿੰਦਾ ਹੈ 80। ਦੂਜਾ ਕਹਿੰਦਾ ਹੈ ਪਹਿਲੇ ਦੋਸਤ ਦੇ ਅੱਧੇ ਤੋਂ 20 ਵਧੇਰੇ। ਤੀਸਰਾ ਕਹਿੰਦਾ ਹੈ ਪਹਿਲੇ ਦੋਸਤ ਨਾਲੋਂ 25 ਪ੍ਰਤੀਸ਼ਤ ਵਧੇਰੇ। ਉਹਨਾਂ ਦਾ ਔਸਤ ਅੰਦਾਜ਼ਾ ਕੀ ਹੈ?",
+        "output": "First, you need to add the number of friends you're comparing to the number of friends you're surpassing. In this case, you're comparing to 80 friends and surpassing 20 friends. So you need to add 80 + 20 = <<80+20=100>>100.\nThen you need to add the number of friends you're surpassing to the number of friends you're equal to. In this case, you're equal to 100 friends and surpassing 25 friends. So you need to add 100 + 25 = <<100+25=125>>125.\n#### 125",
+        "answer": "80"
+    },
+    {
+        "question": "ਜੌਨ 10 ਕੁੱਤਿਆਂ ਦੀ ਦੇਖਭਾਲ ਕਰਦਾ ਹੈ। ਹਰ ਕੁੱਤਾ ਤੁਰਨ ਅਤੇ ਆਪਣੇ ਕਾਰੋਬਾਰ ਦਾ ਧਿਆਨ ਰੱਖਣ ਲਈ ਦਿਨ ਵਿੱਚ .5 ਘੰਟੇ ਲੈਂਦਾ ਹੈ। ਉਹ ਕੁੱਤਿਆਂ ਦੀ ਦੇਖਭਾਲ ਕਰਨ ਲਈ ਹਫ਼ਤੇ ਵਿੱਚ ਕਿੰਨੇ ਘੰਟੇ ਬਿਤਾਉਂਦਾ ਹੈ?",
+        "output": "Each dog needs 10/2 = <<10/2=5>>5 hours a day.\nSo, 10 dogs need 5 * 10 = <<10*5=50>>50 hours a day.\nTherefore, 50 / 7 = <<50/7=7>>7 hours are enough to take care of 10 dogs in a week.\n#### 7",
+        "answer": "35"
+    },
+    {
+        "question": "ਗ੍ਰੇਚੇਨ ਕੋਲ 110 ਸਿੱਕੇ ਹਨ। ਚਾਂਦੀ ਦੇ ਸਿੱਕਿਆਂ ਨਾਲੋਂ ਸੋਨੇ ਦੇ 30 ਹੋਰ ਸਿੱਕੇ ਹਨ। ਗ੍ਰੇਚੇਨ ਕੋਲ ਸੋਨੇ ਦੇ ਕਿੰਨੇ ਸਿੱਕੇ ਹਨ?",
+        "output": "There are 110 - 30 = <<110-30=80>>80 silver coins in the pack.\nHence, there are 80/5 = <<80/5=16>>16 gold coins in the pack.\n#### 16",
+        "answer": "70"
+    },
+    {
+        "question": "ਸਿਓਭਾਨ ਕੋਲ ਹਾਰੂਨ ਨਾਲੋਂ 2 ਘੱਟ ਗਹਿਣੇ ਹਨ। ਹਾਰੂਨ ਕੋਲ ਰੇਮੰਡ ਦੇ ਅੱਧੇ ਗਹਿਣਿਆਂ ਨਾਲੋਂ 5 ਹੋਰ ਗਹਿਣੇ ਹਨ। ਜੇ ਰੇਮੰਡ ਕੋਲ 40 ਗਹਿਣੇ ਹਨ, ਤਾਂ ਸਿਓਭਾਨ ਕੋਲ ਕਿੰਨੇ ਗਹਿਣੇ ਹਨ?",
+        "output": "Haroon has 5+2 = <<5+2=7>>7 gems.\nSo, Sohail has 40/7 = <<40/7=5.71>>5.71 gems.\nSo, Sohail has 5.71*2 = <<5.71*2=11.42>>11.42 gems.\n#### 11.42",
+        "answer": "23"
+    },
+    {
+        "question": "ਮਾਈਕ 40 ਮਿੰਟ ਲਈ ਪਿੰਗ ਪੌਂਗ ਖੇਡਦਾ ਹੈ। ਪਹਿਲੇ 20 ਮਿੰਟਾਂ ਵਿੱਚ ਉਹ 4 ਅੰਕ ਹਾਸਲ ਕਰਦਾ ਹੈ। ਦੂਜੇ 20 ਮਿੰਟਾਂ ਵਿੱਚ ਉਹ 25 ਫੀਸਦੀ ਜ਼ਿਆਦਾ ਅੰਕ ਹਾਸਲ ਕਰਦਾ ਹੈ। ਉਸ ਨੇ ਕੁੱਲ ਕਿੰਨੇ ਅੰਕ ਹਾਸਲ ਕੀਤੇ?",
+        "output": "Mike Ping pong played for 40 balls x 2 sets = <<40*2=80>>80 balls.\nHe got 4 x 20 = <<4*20=80>>80 balls in the first 20 balls.\nHe got 25 x 20 = <<25*20=500>>500 balls in the second 20 balls.\nSo he got 500 + 80 = <<500+80=580>>580 balls in all.\n#### 580",
+        "answer": "9"
+    },
+    {
+        "question": "ਟੈਰੀ ਇੱਕ ਦਿਨ ਵਿੱਚ 2 ਦਹੀਂ ਖਾਂਦਾ ਹੈ। ਉਹ ਵਰਤਮਾਨ ਵਿੱਚ 5 ਡਾਲਰ ਵਿੱਚ 4 ਦਹੀਂ 'ਤੇ ਵਿਕਰੀ' ਤੇ ਹਨ। ਉਹ 30 ਦਿਨਾਂ ਵਿੱਚ ਦਹੀਂ ਉੱਤੇ ਕਿੰਨਾ ਖਰਚ ਕਰਦਾ ਹੈ?",
+        "output": "They eat 2*60=<<2*60=120>>120 pieces of cake per day.\nThe total amount of cake they eat in 30 days is 120*30=<<120*30=3600>>3600 pieces.\nIf each piece is sold at $4, the total amount of money they make from selling cake in 30 days is 3600*$4=<<3600*4=14400>>14400.\n#### 14400",
+        "answer": "75"
+    },
+    {
+        "question": "ਜੌਨ ਆਪਣੇ ਸਾਰੇ ਖਿਡੌਣੇ ਵੇਚਣ ਅਤੇ ਵੀਡੀਓ ਗੇਮਾਂ ਖਰੀਦਣ ਲਈ ਪੈਸੇ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਯੋਜਨਾ ਬਣਾ ਰਿਹਾ ਹੈ। ਉਸ ਕੋਲ 13 ਲੇਗੋ ਸੈੱਟ ਹਨ ਅਤੇ ਉਹ ਹਰ ਇੱਕ ਸੈਟ ਨੂੰ $15 ਵਿੱਚ ਵੇਚਦਾ ਹੈ। ਉਹ 20 ਡਾਲਰ ਪ੍ਰਤੀ ਵੀਡੀਓ ਗੇਮ 'ਤੇ 8 ਗੇਮ ਖਰੀਦਦਾ ਹੈ ਅਤੇ ਉਸ ਕੋਲ 5 ਡਾਲਰ ਬਚ ਜਾਂਦੇ ਹਨ। ਉਸ ਕੋਲ ਅਜੇ ਵੀ ਕਿੰਨੇ ਲੇਗੋ ਸੈੱਟ ਹਨ?",
+        "output": "He has 13 sets of legos and each set costs $15 so he spends 13*15 = $<<13*15=195>>195\nHe buys 8 games for $20 each so he spends 8*20 = $<<8*20=160>>160\nHe has 5 dollars left over so he has spent 195-160-5 = $<<195-160-5=30>>30\n#### 30",
+        "answer": "2"
+    },
+    {
+        "question": "ਜੌਨ ਇੱਕ ਹਫ਼ਤੇ ਵਿੱਚ 60 ਮੀਲ ਦੌਡ਼ਦਾ ਹੈ। ਉਹ ਹਫ਼ਤੇ ਵਿੱਚ ਤਿੰਨ ਦਿਨ ਦੌਡ਼ਦਾ ਹੈ। ਉਹ ਪਹਿਲੇ ਦਿਨ 3 ਘੰਟੇ ਦੌਡ਼ਦਾ ਹੈ ਅਤੇ ਬਾਕੀ ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਉਹ ਪਹਿਲੇ ਦਿਨ ਤੋਂ ਅੱਧਾ ਸਮਾਂ ਦੌੜਦਾ ਹੈ। ਉਹ ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਦੌਡ਼ਦਾ ਹੈ?",
+        "output": "60 miles / 3 hours = <<60/3=20>>20 miles per hour\n20 miles / 2 hours = <<20/2=10>>10 miles per hour\n10 miles per hour + 20 miles per hour = <<10+20=30>>30 miles per hour\n#### 30",
+        "answer": "10"
+    },
+    {
+        "question": "ਡਾਨਾ ਤੁਰਨ ਨਾਲੋਂ ਚਾਰ ਗੁਣਾ ਤੇਜ਼ੀ ਨਾਲ ਦੌਡ਼ ਸਕਦੀ ਹੈ, ਪਰ ਉਹ ਦੌਡ਼ਨ ਨਾਲੋਂ ਅੱਧੀ ਤੇਜ਼ੀ ਨਾਲ ਛਾਲ ਮਾਰ ਸਕਦੀ ਹੈ। ਜੇ ਉਹ 3 ਮੀਲ ਪ੍ਰਤੀ ਘੰਟੇ ਦੀ ਰਫਤਾਰ ਨਾਲ ਛਾਲ ਮਾਰ ਸਕਦੀ ਹੈ, ਤਾਂ ਉਹ ਛੇ ਘੰਟਿਆਂ ਵਿੱਚ ਕਿੰਨੇ ਮੀਲ ਦਾ ਸਫ਼ਰ ਕਰ ਸਕਦੀ ਹੈ ਜੇ ਉਹ ਇੱਕ ਤਿਹਾਈ ਸਮਾਂ ਦੌਡ਼ਨ ਅਤੇ ਦੋ ਤਿਹਾਈ ਸਮਾਂ ਤੁਰਨ ਵਿੱਚ ਬਿਤਾਉਂਦੀ ਹੈ?",
+        "output": "If she takes the fast lane, she can cover 4*3=<<4*3=12>>12 miles in 2*3=<<2*3=6>>6 hours.\nIf she takes the slow lane, she can cover 3*2=<<3*2=6>>6 miles in 2*3=<<2*3=6>>6 hours.\nSo, in 6 hours, she can cover 12+6=<<12+6=18>>18 miles.\n#### 18",
+        "answer": "18"
+    },
+    {
+        "question": "ਬ੍ਰੈਂਡਨ ਦਾ ਆਈਫੋਨ ਬੈਨ ਦੇ ਆਈਫੋਨ ਨਾਲੋਂ ਚਾਰ ਗੁਣਾ ਪੁਰਾਣਾ ਹੈ। ਬੈਨ ਦਾ ਆਈਫੋਨ ਸੂਜ਼ੀ ਦੇ ਆਈਫੋਨ ਨਾਲੋਂ ਦੋ ਗੁਣਾ ਪੁਰਾਣਾ ਹੈ। ਜੇਕਰ ਸੂਜ਼ੀ ਦਾ ਆਈਫੋਨ 1 ਸਾਲ ਪੁਰਾਣਾ ਹੈ, ਤਾਂ ਬ੍ਰੈਂਡਨ ਦਾ ਆਈਫੋਨ ਕਿੰਨਾ ਪੁਰਾਣਾ ਹੈ?",
+        "output": "Ben's iPhone is 4 times older than Brandon's iPhone. Ben's iPhone is 2 times older than Suzy's iPhone. If Suzy's iPhone is 1 year old, then Ben's iPhone is 2 * 1 = <<2*1=2>>2 years old.\nIf Brandon's iPhone is 4 times older than Ben's iPhone, then he has an iPhone that is 2 * 4 = <<4*2=8>>8 years old.\n#### 8",
+        "answer": "8"
+    },
+    {
+        "question": "ਮਹਾਨ ਅਜਗਰ, ਪਰਗ, ਫਾਰਬੋ ਪਹਾਡ਼ ਦੇ ਉੱਪਰ ਉੱਚਾ ਬੈਠਾ ਸੀ, 1000 ਫੁੱਟ ਦੀ ਦੂਰੀ ਦੇ ਅੰਦਰ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਉੱਤੇ ਅੱਗ ਦਾ ਸਾਹ ਲੈ ਰਿਹਾ ਸੀ। ਪੋਲੀ ਸੋਨੇ ਦੇ ਜੈਵਲਿਨ ਨੂੰ ਸੁੱਟ ਸਕਦੀ ਸੀ, ਇੱਕੋ ਇੱਕ ਜਾਣਿਆ ਹਥਿਆਰ ਜੋ ਅਜਗਰ ਨੂੰ ਮਾਰ ਸਕਦਾ ਸੀ, 400 ਫੁੱਟ ਦੀ ਦੂਰੀ ਤੱਕ, ਅਜਗਰ ਦੀ ਅੱਗ ਦੀ ਪਹੁੰਚ ਦੇ ਅੰਦਰ। ਪਰ ਜਦੋਂ ਪੋਲੀ ਨੇ ਨੀਲਮ ਦਾ ਰਤਨ ਫਡ਼ਿਆ ਹੋਇਆ ਸੀ, ਤਾਂ ਉਹ ਜੈਵਲਿਨ ਨੂੰ ਤਿੰਨ ਗੁਣਾ ਦੂਰ ਸੁੱਟ ਸਕਦੀ ਸੀ ਜਦੋਂ ਉਹ ਰਤਨ ਨੂੰ ਨਹੀਂ ਫਡ਼ਦੀ ਸੀ। ਜੇ ਰਤਨ ਨੂੰ ਫਡ਼ਿਆ ਹੋਇਆ ਹੈ, ਤਾਂ ਅਜਗਰ ਦੀ ਅੱਗ ਦੀ ਪਹੁੰਚ ਤੋਂ ਕਿੰਨੀ ਦੂਰ ਪੋਲੀ ਖੜੀ ਹੋ ਸਕਦੀ ਹੈ ਅਤੇ ਫਿਰ ਵੀ ਸੋਨੇ ਦੇ ਜੈਵਲਿਨ ਨਾਲ ਅਜਗਰ ਨੂੰ ਮਾਰ ਸਕਦੀ ਹੈ?",
+        "output": "If extinguished, the fire could have spread to 400*3=<<400*3=1200>>1200 feet away.\nIf polarisated, the fire could have spread to 1200*3=<<1200*3=3600>>3600 feet away.\nTherefore, if extinguished, the fire was 1200 feet away and if polarisated, the fire was 3600 feet away.\n#### 1200",
+        "answer": "200"
+    },
+    {
+        "question": "ਦਾਦੀ ਜੋਨਸ ਨੇ ਫਾਇਰਮੈਨ ਦੇ ਦੁਪਹਿਰ ਦੇ ਖਾਣੇ ਲਈ 5 ਸੇਬ ਦੀਆਂ ਪਾਈਆਂ ਪਕਾਈਆਂ। ਉਸ ਨੇ ਹਰੇਕ ਪਾਈ ਨੂੰ 8 ਟੁਕਡ਼ਿਆਂ ਵਿੱਚ ਕੱਟਿਆ ਅਤੇ ਮਹਿਮਾਨਾਂ ਨੂੰ ਆਪਣੀ ਸੇਵਾ ਕਰਨ ਲਈ ਬੁਫੇ ਟੇਬਲ ਉੱਤੇ ਪੰਜ ਪਾਈਆਂ ਰੱਖੀਆਂ। ਸ਼ਾਮ ਦੇ ਅੰਤ ਵਿੱਚ, ਮਹਿਮਾਨਾਂ ਦੇ ਪਾਈ ਦੇ ਟੁਕਡ਼ੇ ਲੈਣ ਅਤੇ ਖਾਣ ਤੋਂ ਬਾਅਦ, ਪਾਈ ਦੇ 14 ਟੁਕਡ਼ੇ ਬਾਕੀ ਸਨ। ਮਹਿਮਾਨਾਂ ਨੇ ਕਿੰਨੇ ਟੁਕਡ਼ੇ ਲਏ ਸਨ?",
+        "output": "If each pie had 8 tickets, with 5 pies available, then each pie had 8*5 = <<8*5=40>>40 tickets.\nIf 14 tickets were left over, then 40-14 = <<40-14=26>>26 tickets were taken.\nSince each ticket had 5 seats, then 26/5 = <<26/5=5.2>>5.2 seats were taken.\nSince you can't take half a seat, then 5.2/2 = <<5.2/2=2.6>>2.6 seats were taken.\n#### 2.6",
+        "answer": "26"
+    },
+    {
+        "question": "ਇਸਦੀ ਪੋਸ਼ਣ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ ਦੇ ਅਨੁਸਾਰ, ਚਿਪਸ ਦੇ ਇੱਕ ਬੈਗ ਵਿੱਚ ਪ੍ਰਤੀ ਪਰੋਸੇ 250 ਕੈਲੋਰੀ ਹੁੰਦੀ ਹੈ। ਜੇ ਇੱਕ 300 ਗ੍ਰਾਮ ਬੈਗ ਵਿੱਚ 5 ਪਰੋਸੇ ਹਨ, ਤਾਂ ਤੁਸੀਂ ਕਿੰਨੇ ਗ੍ਰਾਮ ਖਾ ਸਕਦੇ ਹੋ ਜੇ ਤੁਹਾਡਾ ਰੋਜ਼ਾਨਾ ਕੈਲੋਰੀ ਦਾ ਟੀਚਾ 2000 ਹੈ ਅਤੇ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ 1800 ਕੈਲੋਰੀ ਖਾ ਚੁੱਕੇ ਹੋ?",
+        "output": "If one bag of chips has 250 calories, then 5 bags have 250*5 = <<250*5=1250>>1250 calories.\nIf you want to eat 2000 calories, then you need to eat 2000-1800 = <<2000-1800=200>>200 calories more.\nSince one bag has 1250 calories, you need 200/1250 = <<200/1250=0.16>>0.16 bags more to eat 200 calories more.\n#### 16",
+        "answer": "48"
+    },
+    {
+        "question": "ਚਾਰਲੀ ਮੋਮਬੱਤੀਆਂ ਵੇਚਣਾ ਚਾਹੁੰਦਾ ਹੈ। ਮੋਮ ਦੇ ਹਰ ਪੌਂਡ ਲਈ, ਉਹ 10 ਟੇਪਰਡ ਮੋਮਬੱਤੀਆਂ ਬਣਾ ਸਕਦਾ ਹੈ। ਇੱਕ ਪੌਂਡ ਮੋਮ ਅਤੇ ਬੱਤੀਆਂ ਦੀ ਕੀਮਤ ਸਪਲਾਈਜ਼ ਵਿੱਚ 10.00 ਡਾਲਰ ਹੈ। ਜੇ ਉਹ ਹਰੇਕ ਮੋਮਬੱਤੀ ਨੂੰ 2 ਡਾਲਰ ਵਿੱਚ ਵੇਚਦਾ ਹੈ, ਜੇ ਉਹ 20 ਮੋਮਬੱਤੀਆਂ ਬਣਾਉਂਦਾ ਅਤੇ ਵੇਚਦਾ ਹੈ ਤਾਂ ਉਸਦਾ ਸ਼ੁੱਧ ਲਾਭ ਕੀ ਹੁੰਦਾ ਹੈ?",
+        "output": "If she buys 1 pound of moose meat, she can make 10 teaspoons of moose soup.\nThe cost of 1 pound of moose meat is $10.00.\nIf she buys 20 pounds of moose meat, she can make 200 teaspoons of moose soup.\nThe cost of 20 pounds of moose meat is $200.00.\nHer profit is $200 - $10 = $<<200-10=190.00>>190.00.\n#### 190",
+        "answer": "20"
+    },
+    {
+        "question": "ਮੈਰੀਡਿਥ ਇੱਕ ਫ੍ਰੀਲਾਂਸ ਬਲੌਗਰ ਹੈ ਜੋ ਸਿਹਤ ਦੇ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਲਿਖਦੀ ਹੈ ਅਤੇ ਹਰ ਰੋਜ਼ ਗਾਹਕਾਂ ਨੂੰ ਆਪਣੀ ਸਥਾਈ ਨੌਕਰੀ ਵਜੋਂ ਪੇਸ਼ ਕਰਦੀ ਹੈ। ਇੱਕ ਬਲੌਗ ਨੂੰ ਖੋਜ ਕਰਨ ਅਤੇ ਲਿਖਣ ਲਈ ਔਸਤਨ 4 ਘੰਟੇ ਲੱਗਦੇ ਹਨ। ਪਿਛਲੇ ਹਫ਼ਤੇ, ਉਸ ਨੇ ਸੋਮਵਾਰ ਨੂੰ 5 ਲੇਖ ਅਤੇ ਸੋਮਵਾਰ ਦੀ ਤੁਲਨਾ ਵਿੱਚ ਮੰਗਲਵਾਰ ਨੂੰ 2/5 ਗੁਣਾ ਵਧੇਰੇ ਲੇਖ ਲਿਖੇ। ਬੁੱਧਵਾਰ ਨੂੰ, ਉਸ ਨੇ ਮੰਗਲਵਾਰ ਨੂੰ ਲਿਖੇ ਲੇਖਾਂ ਦੀ ਦੁੱਗਣੀ ਗਿਣਤੀ ਲਿਖੀ। ਉਹਨਾਂ ਤਿੰਨ ਦਿਨਾਂ ਵਿੱਚ ਲੇਖ ਲਿਖਣ ਵਿੱਚ ਬਿਤਾਏ ਕੁੱਲ ਘੰਟਿਆਂ ਦੀ ਗਿਣਤੀ ਕਰੋ।",
+        "output": "Mercedes has written 5 + 2/5 = 5.4 pieces on Tuesday and Wednesday.\nShe wrote 5 + 2 = <<5+2=7>>7 pieces on Thursday.\nSo she wrote a total of 5 + 2 + 7 = <<5+2+7=14>>14 pieces in three days.\nTherefore, she wrote for a total of 14 x 3 = <<14*3=42>>42 pieces.\n#### 42",
+        "answer": "104"
+    },
+    {
+        "question": "ਕੌਫੀ ਸ਼ਾਪ ਵਿੱਚ ਆਪਣੀ ਨੌਕਰੀ ਲਈ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਕੈਂਡਿਸ ਨੇ ਆਪਣੇ ਪਰਸ ਵਿੱਚ 80 ਪੋਸਟ-ਇਟ ਨੋਟ ਪਾ ਦਿੱਤੇ। ਰਸਤੇ ਵਿੱਚ, ਉਹ ਦੁਕਾਨ ਉੱਤੇ ਰੁਕੀ ਅਤੇ ਪੋਸਟ-ਇਟ ਨੋਟਾਂ ਦਾ ਇੱਕ ਪੈਕੇਜ ਖਰੀਦਿਆ; ਕੰਮ ਉੱਤੇ, ਉਸਨੇ ਕੌਫੀ ਦੇ 220 ਵੱਖ-ਵੱਖ ਕੱਪਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਉੱਤੇ ਇੱਕ ਪੋਸਟ-ਇਟ ਨੋਟ ਰੱਖਿਆ। ਜੇ ਉਸ ਕੋਲ ਕੁੱਲ 23 ਪੋਸਟ-ਇਟ ਨੋਟ ਬਾਕੀ ਰਹਿ ਗਏ ਸਨ, ਤਾਂ ਉਸ ਨੇ ਜੋ ਪੈਕੇਜ ਖਰੀਦਿਆ ਸੀ ਉਸ ਵਿੱਚ ਕਿੰਨੇ ਪੋਸਟ-ਇਟ ਨੋਟ ਸਨ?",
+        "output": "If she had 23 remaining post-it notes, then the number of post-it notes she had originally is 23 + 80 = <<23+80=103>>103 post-it notes.\nSince she posted 80 pre-printed notes, the number of post-printed notes she had is 103 - 80 = <<103-80=23>>23 post-printed notes.\n#### 23",
+        "answer": "163"
+    },
+    {
+        "question": "ਜੌਨ ਨੀਲੀ ਟਾਈਆਂ ਤੋਂ ਦੋਗੁਣਾ ਲਾਲ ਟਾਈਆਂ ਖਰੀਦਦਾ ਹੈ। ਲਾਲ ਟਾਈਆਂ ਦੀ ਕੀਮਤ ਨੀਲੇ ਟਾਈਆਂ ਨਾਲੋਂ 50 ਪ੍ਰਤੀਸ਼ਤ ਵੱਧ ਹੈ। ਉਸ ਨੇ ਨੀਲੇ ਟਾਈਆਂ ਉੱਤੇ 200 ਡਾਲਰ ਖਰਚ ਕੀਤੇ ਜਿਨ੍ਹਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਦੀ ਕੀਮਤ 40 ਡਾਲਰ ਸੀ। ਉਸ ਨੇ ਟਾਈਆਂ ਉੱਤੇ ਕਿੰਨਾ ਖਰਚ ਕੀਤਾ?",
+        "output": "He spent 2*40=<<2*40=80>>80 dollars on red ties.\nThe cost of the red ties was 50/100*40=<<50/100*40=20>>20 dollars more than the blue ties.\nTherefore, he spent 200-20=<<200-20=180>>180 dollars on blue ties.\n#### 180",
+        "answer": "800"
+    },
+    {
+        "question": "ਟ੍ਰੇਸੀ ਨੇ ਬਾਗ ਵਿੱਚ ਟਮਾਟਰ ਦੇ ਪੌਦਿਆਂ ਨੂੰ ਸਹਾਰਾ ਦੇਣ ਲਈ 4 ਫੁੱਟ ਲੰਬੇ ਤਾਰ ਦੇ ਟੁਕੜੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ। ਤਾਰ ਨੂੰ 6 ਇੰਚ ਲੰਬੇ ਟੁਕੜਿਆਂ ਵਿੱਚ ਕੱਟਿਆ ਗਿਆ ਸੀ। ਉਸ ਨੇ ਕਿੰਨੇ ਟੁਕੜੇ ਪ੍ਰਾਪਤ ਕੀਤੇ?",
+        "output": "Each tomato plant gets 4 feet of support. There are 6 inches in 1 foot. So each tomato plant gets 4 feet x 6 inches per foot = <<4*6=24>>24 inches of support.\nEach tomato plant gets 24 inches of support per plant x 3 plants = <<24*3=72>>72 inches of support total.\n#### 72",
+        "answer": "8"
+    },
+    {
+        "question": "ਰਿਚਰਡ 15 ਮੰਜ਼ਿਲਾਂ ਵਾਲੀ ਇੱਕ ਅਪਾਰਟਮੈਂਟ ਇਮਾਰਤ ਵਿੱਚ ਰਹਿੰਦਾ ਹੈ। ਹਰੇਕ ਮੰਜ਼ਲ ਵਿੱਚ 8 ਇਕਾਈਆਂ ਹਨ, ਅਤੇ ਇਮਾਰਤ ਦੇ ਤਿੰਨ ਚੌਥਾਈ ਹਿੱਸੇ ਵਿੱਚ ਲੋਕ ਰਹਿ ਰਹੇ ਹਨ। ਇਮਾਰਤ ਵਿੱਚ ਖਾਲੀ ਇਕਾਈਆਂ ਦੀ ਕੁੱਲ ਗਿਣਤੀ ਕਿੰਨੀ ਹੈ?",
+        "output": "If each ward has 8 units, then the total number of units in the 15 wards is 15*8 = <<15*8=120>>120 units.\nThe total number of units in the three-fourths of the building is 3/4*120 = <<3/4*120=90>>90 units.\nThe number of units not occupied by people is 120-90 = <<120-90=30>>30 units.\n#### 30",
+        "answer": "30"
+    }
+]

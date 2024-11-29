@@ -1,0 +1,252 @@
+[
+    {
+        "question": "জেনেটের হাঁসগুলি প্রতিদিন 16টি করে ডিম পাড়ে। তিনি প্রতিদিন প্রাতরাশে তিনটি করে ডিম খান এবং বন্ধুদের জন্য প্রতিদিন চারটি ডিম দিয়ে মাফিন তৈরি করেন। অবশিষ্ট হাঁসের ডিমগুলি তিনি প্রতিদিন কৃষকদের বাজারে প্রতি ডিম $2 দরে বিক্রয় করেন। তিনি কৃষকদের বাজারে প্রতিদিন কত ডলার উপার্জন করেন?",
+        "output": "Genus horns are a staple in many cultures, with each breederman keeping a dozen or so for personal use, and then selling the rest to traders who use them for crafting and trading.\nEach breederman keeps 16 / 3 = <<16/3=5.33>>5.33 dozen horns for personal use.\nThe rest of the horns are sold to traders who use them for crafting and trading.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders use them to make money from the breeders who keep them for personal use.\nThe breeders keep them for personal use because they are valued at $2 per horn.\nThe traders",
+        "answer": "18"
+    },
+    {
+        "question": "একটি পোশাক তৈরি করতে 2 রিল নীল সুতো এবং তার অর্ধেক সাদা সুতো লাগে। এটি তৈরি করতে মোট কতগুলি রিল লাগবে?",
+        "output": "If you take 2 ropes of different colors and weave them together, you get 2+1=<<2+1=3>>3 ropes.\n#### 3",
+        "answer": "3"
+    },
+    {
+        "question": "জোশ একটি বাড়ি ফ্লিপ করার সিদ্ধান্ত নিয়েছেন। তিনি $80,000-এ একটি বাড়ি ক্রয় করলেন এবং $50,000 দিয়ে মেরামত করলেন। এর ফলে বাড়িটির মূল্য 150% বৃদ্ধি পেল। তিনি কত ডলার লাভ করলেন?",
+        "output": "Heather has increased the value of the house by 150% + 50% = 200% of its original value.\nThe original value was $80,000, so the new value is $80,000 * 200% = $<<80000*200*.01=16000>>16,000.\nHeather has therefore made $16,000 - $8,000 = $<<16000-8000=8000>>8,000 profit.\n#### 8000",
+        "answer": "70000"
+    },
+    {
+        "question": "জেমস এক সপ্তাহে 3 বার 3টি স্প্রিন্টে দৌড়ানোর সিদ্ধান্ত নিয়েছেন। তিনি প্রতি স্প্রিন্টে 60 মিটার করে দৌড়ান। তিনি এক সপ্তাহে মোট কত মিটার করে দৌড়ান?",
+        "output": "James decides to run the 3x3=<<3*3=9>>9 meters in 3 parts.\nHe runs 60 meters in 1 part.\nSo he runs 60+60+60=<<60+60+60=180>>180 meters in 3 parts.\n#### 180",
+        "answer": "540"
+    },
+    {
+        "question": "ওয়েন্ডি প্রতিদিন তাঁর প্রত্যেকটি মুরগিকে সুস্থ রাখার জন্য তিন কাপ করে মুরগির খাবারের মিশ্রণ খাওয়ান যাতে দানা, মিলওয়ার্ম এবং সব্জি থাকে। তিনি মুরগিদের তিনবারে আলাদা-আলাদা করে খাবার দেন। সকালে, তিনি মুরগির ঝাঁককে 15 কাপ খাবার দেন। বিকেলে, মুরগিদের তিনি আরও 25 কাপ খাবার দেন। ওয়েন্ডির মুরগির ঝাঁকে যদি 20টি মুরগি থাকে তাহলে মুরগিদের দিনের শেষ খাবার খাওয়ানোর জন্য তাঁকে কত কাপ খাবার দিতে হবে?",
+        "output": "Oyindah's murugakiwa has 15+25 = <<15+25=40>>40 cups of food.\nIf 1 cup of food is equal to 3 pieces, then Oyindah's murugakiwa has 40*3 = <<1*3*40=120>>120 pieces of food.\nSince 1 day has 20 pieces of food, then Oyindah's murugakiwa has 120/20 = 6 cups of food.\n#### 6",
+        "answer": "20"
+    },
+    {
+        "question": "কাইলার তাঁর নতুন অ্যাপার্টমেন্টের জন্য কাঁচ কিনতে দোকানে গিয়েছিলেন। একটি কাঁচের দাম $5, কিন্তু প্রতি দ্বিতীয় গ্লাসের জন্য দাম হয় মূল্যের 60% মাত্র। কাইলার 16টি কাঁচ কিনতে চান। এগুলির জন্য তাঁকে কত ডলার অর্থপ্রদান করতে হবে?",
+        "output": "If one windowpane costs $5, then two windowpanes cost 2*$5 = $<<2*5=10>>10.\nSince the price of each windowpane drops by 60% for the second windowpane, the price of the second windowpane is $10*(60/100) = $<<10*(60/100)=6>>6 less.\nThe price of the second windowpane is now $10-$6 = $<<10-6=4>>4.\nIf he wants to buy 16 windowpanes, he will have to pay $4*16 = $<<4*16=64>>64.\n#### 64",
+        "answer": "64"
+    },
+    {
+        "question": "টুলুজের কাছে চার্লস্টনের থেকে দুইগুণ বেশি ভেড়া রয়েছে। চার্লস্টনের কাছে সিয়াটলের থেকে 4গুণ বেশি ভেড়া রয়েছে। যদি সিয়াটলের কাছে 20টি ভেড়া থাকে তাহলে টুলুজ, চার্লস্টন এবং সিয়াটলের কাছে সর্বমোট কতগুলি করে ভেড়া আছে?",
+        "output": "If Charlesston is 4 times more affable than Tululu, then there are 2*4=<<2*4=8>>8 more affable things about Charlesston than Tululu.\nThe total number of affable things about Charlesston and Tululu is 8+2=<<8+2=10>>10\nIf Saito is 4 times more affable than Charlesston, then there are 4*10=<<4*10=40>>40 more affable things about Saito than Charlesston and Tululu.\nThe total number of affable things about Saito, Charlesston, and Tululu is 40+10=<<40+10=50>>50\n#### 50",
+        "answer": "260"
+    },
+    {
+        "question": "কার্লা 200 GB-এর একটি ফাইল ডাউনলোড করছেন। সাধারণত তিনি 2 GB/মিনিট হিসেবে ডাউনলোড করতে পারেন, কিন্তু 40% ডাউনলোড হওয়ার পরে, Windows আপডেট ইনস্টল করার জন্য রিস্টার্ট হতে শুরু করে, যা 20 মিনিট সময় নেয়। এরপর কার্লাকে ডাউনলোডটিকে পুনরায় শুরু করতে হয়। ফাইলটি ডাউনলোড করার জন্য কতটা লোড লাগবে?",
+        "output": "If Carla downloads a 200 GB file using 2 GB/miinute, the download will take 200/2 = <<200/2=100>>100 minutes.\nHowever, 40% of the download is a Trojan that will start Windows Update, which will take 20 minutes.\nThus, the real download will take 100 - 20 = <<100-20=80>>80 minutes.\n#### 80",
+        "answer": "160"
+    },
+    {
+        "question": "জন প্রতি ঘণ্টায় 60 মাইল বেগে 3 ঘণ্টা গাড়ি চালানোর পরে বুঝতে পারেন যে তিনি বাড়িতে গুরুত্বপূর্ণ কিছু ভুলে এসেছেন এবং তাই তিনি ফিরে যান। তিনি 4 ঘণ্টায় বাড়ি ফেরার চেষ্টা করেন কিন্তু প্রথম 2 ঘণ্টা তাঁর ট্রাফিক জ্যামে ব্যয় হয়ে যায়। পরবর্তী আধ-ঘণ্টা তিনি প্রতি ঘণ্টা 30 মাইল বেগে গাড়ি চালানোয় ব্যয় করেন, অবশিষ্ট 4 ঘণ্টায় তিনি প্রতি ঘণ্টা 80 মাইল বেগে গাড়ি চালাতে সক্ষম হন। 4 ঘণ্টার শেষে তিনি বাড়ি থেকে কতদূরে আছেন?",
+        "output": "In the first 2 hours, you can cover 2 hours * 60 miles per hour = <<2*60=120>>120 miles.\nIn the next 2 hours, you can cover 2 hours * 30 miles per hour = <<2*30=60>>60 miles.\nSo, in the first 4 hours, you can cover 120 + 60 = <<120+60=180>>180 miles.\nTherefore, you can find how far you are from the starting point by subtracting the distance covered from the initial distance: 180 miles - 60 miles = <<180-60=120>>120 miles.\n#### 120",
+        "answer": "45"
+    },
+    {
+        "question": "প্রতি সপ্তাহে প্রথম 40 ঘণ্টা কাজ করার জন্য এলিজা প্রতি ঘণ্টায় $10 দরে কাজ করেন। অতিরিক্ত সময় কাজ করার জন্য তিনি তাঁর প্রতি ঘণ্টার নিয়মিত দরের 1.2 গুণ অর্থ পান। যদি এলিজা এই সপ্তাহে 45 ঘণ্টা কাজ করে থাকেন, তাহলে এই সপ্তাহে তাঁর উপার্জন কত?",
+        "output": "If Ellisio works 40 hours in a week, he earns 40*10= <<40*10=400>>400 dollars.\nIf he works 45 hours in a week, he earns 45*10= <<45*10=450>>450 dollars.\nSince 450 > 400, Ellisio earns 450-400= <<450-400=50>>50 dollars more for working 45 hours in a week.\n#### 50",
+        "answer": "460"
+    },
+    {
+        "question": "একটি নতুন প্রোগ্রাম প্রথম মাসে 60 বার ডাউনলোড করা হয়েছিল। দ্বিতীয় মাসে ডাউনলোডের সংখ্যা প্রথম মাসের ডাউনলোডের থেকে তিনগুণ বেশি ছিল, কিন্তু তারপর তৃতীয় মাসে তা 30% হ্রাস পেয়েছিল। তিন মাসে প্রোগ্রামটিকে মোট কতবার ডাউনলোড করা হয়েছিল?",
+        "output": "First Month: 60 days\nSecond Month: 60(3)=180 days\nThird month: 180(0.30)=54 days\nTotal:60+180+54=<<60+180+54=294>>294 days\n#### 294",
+        "answer": "366"
+    },
+    {
+        "question": "টুলা বেকারিতে গিয়ে বিভিন্ন রকমের পেস্ট্রি কিনেছিলেন। তিনি $68 ডজন দরে 3 ডজন ডোনাট, $80 ডজন দরে 2 ডজন ছোট কাপকেক, এবং $55 ডজন দরে 6 ডজন মিনি চিজকেক কিনেছিলেন। মোট কত খরচ হয়েছিল?",
+        "output": "3 dozen donuts cost 3 x $68 = $<<3*68=204>>204.\n2 dozen small cakes cost 2 x $80 = $<<2*80=160>>160.\n6 dozen mini cheesecakes cost 6 x $55 = $<<6*55=330>>330.\nTherefore, the total cost of all the cakes was $204 + $160 + $330 = $<<204+160+330=694>>694.\n#### 694",
+        "answer": "694"
+    },
+    {
+        "question": "কার্লোস একটি লেবু গাছ রোপণ করছেন। গাছটি রোপণ করার জন্য $90 খরচ হবে। প্রতি বছর এতে 7টি করে লেবু হবে, যার প্রত্যেকটিকে তিনি $1.5 করে বিক্রয় করতে পারবেন। গাছটিতে জল ও সার দেওয়ার জন্য এক বছরে $3 খরচ হয়। লেবু গাছ থেকে অর্থ উপার্জন করা শুরু করতে তাঁর কত বছর লাগবে?",
+        "output": "First find the total cost of maintaining the plant: $90 + $3 = $<<90+3=93>>93\nThen find the total revenue from selling lemons: 7 lemons/year * $1.5/lemon = $<<7*1.5=10.50>>10.50/year\nThen divide the total cost by the total revenue to find the profit: $93 / $10.50 = <<93/10.5=8.60>>8.60 years\nThen take the profit years as the number of years to start earning money from the plant.\n#### 8.60",
+        "answer": "13"
+    },
+    {
+        "question": "মেলানি হলেন একজন ডোর-টু-ডোর সেলসওম্যান। তিনি তাঁর ভ্যাকিউম ক্লিনারের এক-তৃতীয়াংশ গ্রিন হাউসে, আরও 2টি রেড হাউসে, এবং যা অবশিষ্ট ছিল তার অর্ধেক অরেঞ্জ হাউসে বিক্রয় করেছেন। মেলানির কাছে যদি 5টি ভ্যাকিউম ক্লিনার অবশিষ্ট থাকে, তাহলে তিনি কতগুলি নিয়ে বিক্রয় করা শুরু করেছিলেন?",
+        "output": "Melanie is a door-to-door saleswoman. She has 5+2 = <<5+2=7>>7 houses to sell.\nMelanie has 1+2 = <<1+2=3>>3 houses left.\nThus, she has 7-3 = <<7-3=4>>4 houses to sell.\nMelanie will have to sell 4*7 = <<4*7=28>>28 houses in total.\n#### 28",
+        "answer": "18"
+    },
+    {
+        "question": "কোনও একটি নাচের ক্লাসে 20 জন শিক্ষার্থীর মধ্যে, 20% সমসাময়িক নাচে, 25% জ্যাজ নাচে, এবং বাকিরা হিপ-হপ নাচে নথিভুক্ত হয়েছে। তাহলে সমগ্র শিক্ষার্থীদের মধ্যে হিপ-হপ নাচে কত শতাংশ নথিভুক্ত হয়েছে?",
+        "output": "20% + 25% = 45% of the students are already enrolled in a dance class.\nSo, 100% - 45% = 55% of the students are still looking for a dance class.\n#### 55",
+        "answer": "60"
+    },
+    {
+        "question": "কোনও এক ব্যবসায়ী 2টি ক্রয় পরিকল্পনার মধ্যে একটি বেছে নিতে চান: $5,000 মূল্যের গয়না অথবা $8,000 মূল্যের ইলেকট্রনিক গ্যাজেট। তাঁর আর্থিক উপদেষ্টা অনুমান করেন যে এই মাসের মধ্যে গয়নার বাজার 2.5% বৃদ্ধি পাবে এবং ইলেকট্রনিক গ্যাজেটের বাজার 1.2% বৃদ্ধি পাবে। কোনও একটি পরিকল্পনা বেছে নিয়ে ঐ ব্যবসায়ী যদি এই মাসের শেষে সর্বাধিক লাভ করতে চান, তাহলে সেই লাভের পরিমাণ কত হতে পারে?",
+        "output": "Virtually any business plan will yield $5,000 or less, so set a target of $5,000 - $1,000 = $<<5000-1000=4000>>4,000.\nNext, figure out how much the electronic gasp will cost in 2.5 months by multiplying this year's price by 2.5: $8,000 * 2.5 = $<<8000*2.5=20000>>20,000.\nNow multiply this year's price of the electronic gasp by 1.2 to find out how much the price will be after 1.2 months: $8,000 * 1.2 = $<<8000*1.2=9600>>9,600.\nNow subtract the cost of the gasp from the profit target to find the maximum amount of profit the business can make this year: $4,000 - $9,600 = $<<4000-9600=4400>>4,400.\n#### 4400",
+        "answer": "125"
+    },
+    {
+        "question": "দুটি ট্রেন একই সময়ে সান রাফায়েল থেকে যাত্রা শুরু করে। তারা পশ্চিমের দিকে যেতে শুরু করে, উভয়ই 80 মাইল করে যাত্রা করে। পরের দিন, তারা উত্তরের দিকে যাত্রা করে 150 মাইল পথ যাওয়া সম্পূর্ণ করে। তাহলে দুইদিনে প্রতিটি ট্রেন কত দূরত্ব অতিক্রম করেছে?",
+        "output": "Both trains traveled 80 miles westward on the first day. On the second day, they traveled 150 miles northward, completing the 200-mile route. Therefore, each train traveled 200 miles / 2 trains = <<200/2=100>>100 miles.\n#### 100",
+        "answer": "230"
+    },
+    {
+        "question": "জিল শিক্ষকতা করার জন্য প্রতি ঘণ্টায় $20 এবং চিয়ারলিডার প্রশিক্ষক হওয়ার জন্য $30 বেতন পান। যদি তিনি এক বছরে 50 সপ্তাহ কাজ করেন, তাহলে এক সপ্তাহে 35 ঘণ্টা শিক্ষিকা হিসাবে এবং এক সপ্তাহে 15 ঘণ্টা প্রশিক্ষক হিসাবে কাজ করলে, তাঁর বার্ষিক বেতন কত?",
+        "output": "35 hours/week x $20/hour = $<<35*20=700>>700/week\n15 hours/week x $30/hour = $<<15*30=450>>450/week\n$700 + $450 = $<<700+450=1150>>1150/week\nIn a year, working 50 weeks x $1150/week = $<<50*1150=57500>>57500\n#### 57500",
+        "answer": "57500"
+    },
+    {
+        "question": "ক্লেয়ার প্রতিদিন প্রাতরাশে 3টি ডিম দিয়ে তৈরি একটি অমলেট খান। 4 সপ্তাহে তিনি কত ডজন ডিম খাবেন?",
+        "output": "If Clara eats 3 x 4 = <<3*4=12>>12 dems in a week, she eats 12/100 = <<12/100=0.12>>0.12 dozen dems in a week.\nSince a dozen has 12 items, Clara eats 0.12 x 12 = <<0.12*12=1.44>>1.44 items in a week.\n#### 1.44",
+        "answer": "7"
+    },
+    {
+        "question": "মারিসা 12 মাইল পথ পাড়ি দিচ্ছেন। এরমধ্যে প্রথম 4 মাইল হাঁটতে তিনি 1 ঘণ্টা এবং পরের দুই মাইল হাঁটতে আরও এক ঘণ্টা সময় নিয়েছেন। যদি তিনি চান তাঁর হাঁটার গতিবেগ গড়ে প্রতি ঘণ্টায় 4 মাইল হবে, তাহলে অবশিষ্ট দূরত্ব অতিক্রম করার জন্য তাঁকে কত বেগে (মাইল প্রতি ঘণ্টায়) হাঁটতে হবে?",
+        "output": "So far, she has walked 4 miles + 2 miles = <<4+2=6>>6 miles.\nShe has spent 1 time * 60 minutes = <<1*60=60>>60 minutes walking in the first 4 miles.\nShe has 12 miles - 6 miles = <<12-6=6>>6 miles left to walk.\nShe needs to walk 6 miles / 4 miles per hour = <<6/4=1.5>>1.5 hours to walk the remaining 6 miles.\n#### 1.5",
+        "answer": "6"
+    },
+    {
+        "question": "আমার কাছে 10 লিটার অরেঞ্জ ড্রিঙ্ক আছে যার দুই-তৃতীয়াংশ জল এবং আমি তা 15 লিটার পাইনঅ্যাপল ড্রিঙ্ক -এ মেশাতে চাই যার মধ্যে পাঁচ ভাগের তিনভাগ জল আছে। কিন্তু এটি ঢালতে গিয়ে, আমি এক লিটার অরেঞ্জ ড্রিঙ্ক ফেলে দিই। অবশিষ্ট 24 লিটারে কতটা পরিমাণ জল রয়েছে?",
+        "output": "Two-thirds of 10 liters is 10 x 2/3 = <<10*2/3=6.67>>6.67 liters.\nSo, 10 - 6.67 = <<10-6.67=3.33>>3.33 liters are left in the bucket.\nFive-thirds of 15 liters is 15 x 5/3 = <<15*5/3=25>>25 liters.\nSo, 15 - 25 = <<15-25=10>>10 liters are left in the bucket.\nTherefore, 3.33 + 10 = <<3.33+10=13.33>>13.33 liters of water are left in the bucket.\n#### 13.33",
+        "answer": "15"
+    },
+    {
+        "question": "রেমণ্ড ও সামান্থা একে অপরের তুতো-ভাইবোন। রেমণ্ড সামান্থার থেকে 6 বছর আগে জন্মেছিলেন। 23 বছর বয়সে রেমণ্ডের একটি ছেলে হয়েছিল। বর্তমানে সামান্থার বয়স যদি 31 বছর হয়, তাহলে রেমণ্ডের পুত্র কত বছর আগে জন্মেছিল?",
+        "output": "If Samatha is 31 today, then 6 years ago she was = 31 - 6 = <<31-6=25>>25 years old.\nAt 25 years old, Samatha had just given birth to a child. So, that means the child is 23 years old today.\nTherefore, the child was born 23 - 6 = <<23-6=17>>17 years ago.\n#### 17",
+        "answer": "14"
+    },
+    {
+        "question": "বিলি DVD বিক্রয় করেন। মঙ্গলবারে তাঁর 8 জন গ্রাহক হয়েছে। তাঁর প্রথম 3 জন গ্রাহকের প্রত্যেকে একটি করে DVD ক্রয় করেন। পরবর্তী 2 জন গ্রাহকের প্রত্যেকে 2টি করে DVD ক্রয় করেন। তাঁর শেষ 3 জন গ্রাহক কোনও DVD ক্রয় করেননি। বিলি মঙ্গলবারে কতগুলি DVD বিক্রয় করেছেন?",
+        "output": "Billy sold 3 * 1 = <<3*1=3>>3 DVDs to his first 3 customers.\nHe then sold 2 * 2 = <<2*2=4>>4 DVDs to his next 2 customers.\nHe sold 8 - 3 - 4 = <<8-3-4=1>>1 DVD to his last 3 customers.\nBilly sold 3 + 4 + 1 = <<3+4+1=8>>8 DVDs on Tuesday.\n#### 8",
+        "answer": "7"
+    },
+    {
+        "question": "একটি মোমবাতি জ্বললে সেটি প্রতি ঘণ্টায় 2 সেন্টিমিটার করে গলে যায়। 1:00 PM থেকে 5:00 PM পর্যন্ত জ্বলার পর একটি মোমবাতি কত সেন্টিমিটার ছোট হয়ে যাবে?",
+        "output": "5:00 PM - 1:00 PM = 4 hours\n4 hours = <<4*60=240>>240 minutes\n240 minutes = <<240/2=120>>120 seconds\n120 seconds = <<120/10=12>>12 centimeters\nThe smoke will be 12 centimeters smaller after 5:00 PM.\n#### 12",
+        "answer": "8"
+    },
+    {
+        "question": "কাইল গত বছরের সবথেকে বেশি বিক্রয় হওয়া বইটি $19.50 মূল্যে কিনেছিলেন। যা আসল মূল্যের ওপর 25% ছাড়ে পাওয়া গিয়েছিল। বইটির আসল মূল্য কত ছিল?",
+        "output": "Let x be the original price.\nThen 1.25x = $19.50\nThus x = $19.50 / 1.25 = $<<19.5/1.25=15.60>>15.60\n#### 15.60",
+        "answer": "26"
+    },
+    {
+        "question": "মারি $12 দরে একটি চিকেন মিল, প্রতি প্যাকেট $3 দরে 5টি প্যাকেট দুধ, প্রতি আপেল $1.50 দরে 4টি আপেল, এবং কয়েক-বাক্স পিৎজা অর্ডার করেছিলেন। মারি মোট $50 অর্থপ্রদান করেছিলেন। যদি প্রতি বাক্স পিৎজার দাম $8.50 হয় তবে মারি কত বাক্স পিৎজা অর্ডার করেছিলেন?",
+        "output": "5*3=<<5*3=15>>15 packets of yogurt are costs 15*3=$<<15*3=45>>45.\n4*1.5=<<4*1.5=6>>6 apples are costs 6*1.5=$<<6*1.5=9>>9.\n15+6+8.5=<<15+6+8.5=29>>29\nYou have to pay 29/50=<<29/50=0.58>>0.58 which is 58 cents.\nYou have to order 58/8.5=<<58/8.5=6.71>>6.71 boxes of pizza.\n#### 6",
+        "answer": "2"
+    },
+    {
+        "question": "মিশকা 3 জোড়া শর্টস, 3 জোড়া প্যান্ট, এবং 3 জোড়া জুতো কিনেছিলেন। একজোড়া শর্টসের দাম $16.50। একজোড়া প্যান্টের দাম $22.50 এবং একজোড়া জুতোর দাম $42। সমস্ত পোশাক জাতীয় দ্রব্যের জন্য মিশকা কত ডলার খরচ করেছিলেন?",
+        "output": "Three pairs of shoes cost 3 x $16.50 = $<<3*16.5=49.50>>49.50.\nThree pairs of pants cost 3 x $22.50 = $<<3*22.5=67.50>>67.50.\nThree pairs of shoes cost 3 x $42 = $<<3*42=126>>126.\nTherefore, Misha spent a total of $49.50 + $67.50 + $126 = $<<49.5+67.5+126=243>>243.\n#### 243",
+        "answer": "243"
+    },
+    {
+        "question": "সিন্থিয়া প্রতি রাতে এক সার্ভিং পরিমাণ আইসক্রিম খান। তিনি প্রতি কার্টন $4.00 দরে 15 বার সার্ভিং করা যাবে এমন একটি আইসক্রিমের কার্টন ক্রয় করেন। 60 দিন পরে, আইসক্রিমের জন্য তাঁর ব্যয় করা অর্থের পরিমাণ কত হবে?",
+        "output": "He spends 15*4=$<<15*4=60>>60.00 every night on ice cream.\nHe spends 60*60=$<<60*60=3600>>3,600.00 for 60 days on ice cream.\n#### 3600",
+        "answer": "16"
+    },
+    {
+        "question": "60 মাইলের বাইক ট্রিপে হেনরি দুবার থেমেছিলেন। 20 মাইল চলার পর তিনি প্রথমবার থেমেছিলেন। তাঁর ট্রিপ শেষ হওয়ার 15 মাইল আগে তিনি দ্বিতীয়বার থেমেছিলেন। প্রথমবার ও দ্বিতীয়বার থামার মধ্যে তিনি কত মাইল যাত্রা করেছিলেন?",
+        "output": "Henry dubbed 60 miles twice. 20 miles after the first stop, he went 15 miles further for a total of 20+15 = <<20+15=35>>35 miles.\nHe went 60 miles - 35 miles = <<60-35=25>>25 miles more.\nSince he went 25 miles more than 20 miles, that means he went 25+20 = <<25+20=45>>45 miles.\n#### 45",
+        "answer": "25"
+    },
+    {
+        "question": "গ্লোরিয়া জুতো কেনাকাটা করার সময় তাঁর বাজেটের সাথে মানানসই একজোড়া বুট দেখতে পান। কিন্তু, তাঁকে বুট ও দুজোড়া উঁচু হিল জুতোর মধ্যে একটিকে বেছে নিতে হবে যেগুলির দাম একত্রে বুটের থেকে পাঁচ ডলার কম। যদি একজোড়া হিল জুতোর দাম $33 হয় এবং অন্যটির দাম এটির দ্বিগুণ হয়, তবে বুটের দাম কত ডলার?",
+        "output": "If one shoe is $33, then a pair of shoes is $33*2 = $<<33*2=66>>66\nHowever, the problem states that the shoes are on sale for $5 less than the regular price, so the shoes are now $66-5 = $<<66-5=61>>61\n#### 61",
+        "answer": "104"
+    },
+    {
+        "question": "ড্যারেল ও অ্যালেনের বয়সের অনুপাত 7:11। যদি তাঁদের দুজনের মোট বয়স এখন 162 বছর হয়, তাহলে এখন থেকে 10 বছর পরে অ্যালেনের বয়স কত হবে তা নির্ণয় করুন।",
+        "output": "If the ratio of Darrel's and Allen's age is 7:11, then the total age of the two is 7+11 = <<7+11=18>>18\nIf the total age of the two is 162, then Darrel's age is 162/18 = <<162/18=9>>9 years\nIn 10 years, Darrel will be 9+10 = <<9+10=19>>19 years old.\nIn 10 years, Allen will be 162/18 = <<162/18=9>>9 years old.\n#### 9",
+        "answer": "109"
+    },
+    {
+        "question": "গুন্টার একটি বয়ামে রাখা জেলি বিন্স গোনার চেষ্টা করছেন। বয়ামে কতগুলি জেলি বিন্স রয়েছে তা তিনি তাঁর বন্ধুদের অনুমান করতে বললেন। একজন বলেছেন 80টি রয়েছে। অন্যজন প্রথমজনের অর্ধেকের থেকে 20টি বেশি বলেছেন। তৃতীয়জন প্রথমজনের থেকে 25% বেশি আছে বলেছেন। তাঁদের গড় অনুমানের পরিমাণ কত?",
+        "output": "First, we need to determine how many jelly bins are on both sides of the equation. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation, so we know that 80 = (a + b + c)/3.\nNext, we need to determine the total number of jelly bins. We know that 80 is the average and that there are 3 sides to the equation,",
+        "answer": "80"
+    },
+    {
+        "question": "জন 10টি কুকুরের দেখাশোনা করেন। হাঁটাচলা ও তাদের কাজকর্ম দেখাশোনা করার জন্য প্রতিটি কুকুরের জন্য দিনে .5 ঘণ্টা করে সময় লাগে। কুকুরদের দেখাশোনা করার জন্য তিনি এক সপ্তাহে কত ঘণ্টা ব্যয় করেন?",
+        "output": "Each dog spends 0.5*365=<<0.5*365=182.5>>182.5 days watching dog shows.\nThree dogs spend 182.5*3=<<182.5*3=547.5>>547.5 days watching dog shows.\n#### 547.5",
+        "answer": "35"
+    },
+    {
+        "question": "গ্রেচেনের কাছে 110টি মুদ্রা আছে। রৌপ্য মুদ্রার থেকে 30টি বেশি স্বর্ণ মুদ্রা আছে। গ্রেচেনের কাছে কতগুলি স্বর্ণ মুদ্রা আছে?",
+        "output": "There are 30 more gold coins than silver coins. So there are 30 + 110 = <<30+110=140>>140 coins in total.\nThere are 110 - 30 = <<110-30=80>>80 silver coins.\nSo there are 140 - 80 = <<140-80=60>>60 gold coins.\n#### 60",
+        "answer": "70"
+    },
+    {
+        "question": "অ্যারনের থেকে সিওভানের কাছে 2টি কম রত্ন আছে। রেমন্ডের রত্নের অর্ধেকের থেকে 5টি বেশি রত্ন অ্যারনের কাছে আছে। যদি রেমন্ডের কাছে 40টি রত্ন থাকে, তাহলে সিওভানের কাছে কটি রত্ন আছে?",
+        "output": "If Armand has 5 more teeth than Raymond, he has 1/2*40 = 20 more teeth.\nSince Armand has 20 more teeth than Raymond, he has a total of 40+20 = <<40+20=60>>60 teeth.\nIf there are 2 fewer teeth in Swahili than in Armenian, then Swahili has 60-2 = <<60-2=58>>58 teeth.\n#### 58",
+        "answer": "23"
+    },
+    {
+        "question": "মাইক 40 মিনিট ধরে পিং-পং খেলেন। প্রথম 20 মিনিটে তিনি 4 পয়েন্ট স্কোর করেছেন। দ্বিতীয় 20 মিনিটে তিনি 25% বেশি পয়েন্ট স্কোর করেছেন। তিনি মোট কত পয়েন্ট স্কোর করেছেন?",
+        "output": "In the first 20 minutes, Myk scored 3 x 4 = <<3*4=12>>12 points.\nIn the second 20 minutes, Myk scored 3 x 4.25 = <<3*4.25=13.75>>13.75 points.\nSo, Myk scored a total of 12 + 13.75 = <<12+13.75=25.75>>25.75 points.\n#### 25.75",
+        "answer": "9"
+    },
+    {
+        "question": "টেরি দিনে 2টি ইয়োগার্ট খান। সম্প্রতি 4টি ইয়োগার্ট $5.00-এর ছাড়যুক্ত মূল্যে বিক্রি হচ্ছে। 30 দিনে তিনি ইয়োগার্টের জন্য কত ডলার ব্যয় করেন?",
+        "output": "Each terrier dog costs $5.00, so two terrier dogs cost $5.00*2 = $<<5*2=10.00>>10.00.\nIn 30 days, three terrier dogs cost $10.00*30 = $<<10*30=300.00>>300.00.\n#### 300",
+        "answer": "75"
+    },
+    {
+        "question": "জন তাঁর সমস্ত খেলনা বিক্রয় করে সেই অর্থ দিয়ে ভিডিও গেম ক্রয় করার পরিকল্পনা করছেন। তাঁর 13টি লেগো সেট আছে এবং সেগুলির প্রতিটিকে তিনি $15 দরে বিক্রয় করেছেন। তিনি $20 মূল্যের 8টি ভিডিও গেম ক্রয় করেছেন এবং তাঁর কাছে এখনও $5 অবশিষ্ট রয়েছে। তাঁর কাছে এখনও কতগুলি লেগো সেট আছে?",
+        "output": "He has sold 13 * 3 = <<13*3=39>>39 lego sets\nHe has earned 39 * 15 = <<39*15=585>>585 dollars from selling lego sets\nHe has spent 8 * 20 = <<8*20=160>>160 dollars on video games\nHe has earned 585 - 160 - 5 = <<585-160-5=420>>420 dollars\nHe has 420 / 15 = <<420/15=28>>28 lego sets\nHe has 28 - 13 = <<28-13=15>>15 lego sets left\n#### 15",
+        "answer": "2"
+    },
+    {
+        "question": "জন এক সপ্তাহে 60 মাইল দৌড়ান। তিনি প্রতি সপ্তাহে 3 দিন দৌড়ান। তিনি প্রথম দিনে 3 ঘণ্টা দৌড়ান এবং অন্য দুদিন তার অর্ধেক দৌড়ান। তিনি কত দ্রুত দৌড়ান?",
+        "output": "3 days: 3*60=<<3*60=180>>180 miles\n3/2 days: 3/2*60=<<3/2*60=90>>90 miles\nTotal: 180+90=<<180+90=270>>270 miles\nTime: 3+90=<<3+90=93>>93 hours\nSpeed: 270/93=<<270/93=3>>3 miles/hour\n#### 3",
+        "answer": "10"
+    },
+    {
+        "question": "ডানা হাঁটার তুলনায় চারগুণ বেশি দ্রুত গতিতে দৌড়াতে পারেন, কিন্তু তিনি তাঁর দৌড়ানোর গতির অর্ধেক গতিতে স্কিপ করতে পারেন। যদি তিনি প্রতি ঘণ্টায় 3 মাইল স্কিপ করতে পারেন, তাহলে দৌড়ানোয় এক-তৃতীয়াংশ ও হাঁটায় দুই-তৃতীয়াংশ সময় দিলে ছয় ঘণ্টায় তিনি কত মাইল পথ যেতে পারবেন?",
+        "output": "If you skip 3 miles in 4th gear, you'll cover 3 x 2 = <<3*2=6>>6 miles in one run.\nIf you run 6 miles in 2/3 of your gear, you'll cover 6 x 2/3 = <<6*2/3=4>>4 miles in one run.\nThus, in 6 gears, you'll cover 4 + 6 = <<4+6=10>>10 miles.\n#### 10",
+        "answer": "18"
+    },
+    {
+        "question": "ব্র্যান্ডনের iPhone বেনের iPhone-এর থেকে চারগুণ পুরনো। আবার বেনের iPhone সুজির iPhone-এর তুলনায় দ্বিগুণ পুরনো। যদি সুজির iPhone 1 বছর পুরনো হয়, তাহলে ব্র্যান্ডনের iPhone কত বছরের পুরনো?",
+        "output": "If Suzy's iPhone is 2 years old, then Ben's iPhone is 4 * 2 = <<4*2=8>>8 years old.\n#### 8",
+        "answer": "8"
+    },
+    {
+        "question": "মাউন্ট ফার্বোর শীর্ষে বসে বিশালাকার ড্রাগন পার্গ 1000 ফুট দূরত্বের মধ্যে থাকা যে কোনও কিছুর উপরে মুখ থেকে অগ্নিশিখা বর্ষণ করছে। ড্রাগনটিকে হত্যা করতে পারে এমন একমাত্র জ্ঞাত অস্ত্র হল স্বর্ণ জ্যাভলিন, যেটিকে পলি 400 ফুট দূরত্ব অবধি নিক্ষেপ করতে পারেন, কিন্তু সেই দূরত্ব ড্রাগনের অগ্নিশিখার নাগালের মধ্যেই রয়েছে। কিন্তু পলি যখন নীলকান্ত মণি ধরে রাখেন তখন তিনি মণিটি ধরে না থাকা অবস্থার তুলনায় তিনগুণ দূরত্ব অবধি জ্যাভলিনটিকে নিক্ষেপ করতে পারেন। যদি তিনি মণিটি ধরে রাখেন, তাহলে ড্রাগনের অগ্নিশিখার নাগালের বাইরে কত দূরত্ব অবধি দাঁড়িয়ে পলি স্বর্ণ জ্যাভলিন দিয়ে ড্রাগনকে আঘাত করতে পারবেন?",
+        "output": "If played correctly, the spear thrower's weapon can hit a target 1000 feet away in a single throw. However, this distance can be extended by using the correct amount of force, which will make the spear fly 300 feet farther. Thus, the total distance the spear can hit is 1000 + 300 = <<1000+300=1300>>1300 feet.\n#### 1300",
+        "answer": "200"
+    },
+    {
+        "question": "ঠাকুমা জোন্স দমকলকর্মীদের মধ্যাহ্নভোজনের জন্য 5টি আপেল পাই বেক করেছিলেন। তিনি প্রতিটি পাই-কে 8টি টুকরো করে কেটেছিলেন এবং অতিথিদের তাদের নিজেদের পরিবেশন করার জন্য পাঁচটি পাই বুফে টেবিলে রেখেছিলেন। সন্ধ্যার শেষে, অতিথিরা তাদের পাইয়ের টুকরো নেওয়া ও খাওয়া সমাপ্ত করার পরে, পাই-এর 14টি টুকরো অবশিষ্ট পড়েছিল। অতিথিরা কতগুলি টুকরো নিয়েছিলেন?",
+        "output": "Each pie has 8 x 3 = <<8*3=24>>24 pieces.\nThe total number of pieces eaten is 24 x 5 = <<24*5=120>>120.\nThere are 14 x 5 = <<14*5=70>>70 pieces left.\nThe total number of pieces eaten is 120 + 70 = <<120+70=190>>190.\n#### 190",
+        "answer": "26"
+    },
+    {
+        "question": "পুষ্টিগত তথ্য অনুসারে, এক ব্যাগ চিপ্সের প্রতি সার্ভিং-এ 250 ক্যালোরি রয়েছে। 300 গ্রামের একটি ব্যাগে যদি 5টি সার্ভিং থাকে, এবং আপনার দৈনিক ক্যালোরির লক্ষ্যমাত্রা যদি 2000 হয়ে থাকে ও আপনি ইতিমধ্যেই 1800 ক্যালোরি গ্রহণ করে থাকেন তাহলে আপনি কত গ্রাম চিপ্স খেতে পারবেন?",
+        "output": "If 1 bag of chips has 250 calories, 5 bags of chips have 250*5 = <<250*5=1250>>1250 calories.\nIf you eat 300 grams of chips, you eat 1250+1800 = <<300+1250=2550>>2550 calories.\nTherefore, you can eat 2550/1250 = <<2550/1250=2>>2 bags of chips.\n#### 2",
+        "answer": "48"
+    },
+    {
+        "question": "চার্লি মোমবাতি বিক্রয় করতে চান। প্রতি পাউন্ড মোম দিয়ে, তিনি 10টি টেপারড মোমবাতি তৈরি করতে পারেন। এক পাউন্ড মোম এবং পলতে কিনতে $10.00 খরচ হয়। যদি তিনি প্রতিটি মোমবাতি $2.00 দরে বিক্রয় করেন, তাহলে 20টি মোমবাতি তৈরি করে ও বিক্রয় করলে তাঁর মোট কত লাভ হবে?",
+        "output": "He makes 10 tea cakes from 1 pound of moose meat, so he needs 1/10 pound of moose meat to make 10 tea cakes.\nHe sells each tea cake for $2.00 so he makes a profit of $2.00 * 10 = $<<2*10=20.00>>20.00\nHe buys 1 pound of moose meat for $10.00 and sells 10 tea cakes for $2.00 each so he makes a profit of $10 - $2 * 10 = $<<10-2*10=78.00>>78.00\n#### 78",
+        "answer": "20"
+    },
+    {
+        "question": "মেরেডিথ একজন ফ্রিল্যান্স ব্লগার যিনি স্বাস্থ্যের বিষয় নিয়ে লেখেন এবং গ্রাহকদের কাছে প্রতিদিন স্থায়ী কাজ হিসাবে জমা দেন। কোনও ব্লগ নিবন্ধের ব্যাপারে গবেষণা করতে ও লিখতে গড়ে 4 ঘণ্টা সময় লাগে। গত সপ্তাহে, সোমবার তিনি 5টি নিবন্ধ লিখেছেন এবং সোমবারের চেয়ে মঙ্গলবারে 2/5 গুণ বেশি নিবন্ধ লিখেছেন। বুধবারে, তিনি মঙ্গলবারের চেয়ে দুইগুণ বেশি লিখেছেন। তিনদিনে নিবন্ধ লেখার জন্য তিনি মোট কত সময় ব্যয় করেছেন তা হিসাব করুন।",
+        "output": "On Monday, Meredithe wrote 5 * 3 = <<5*3=15>>15 lines.\nOn Tuesday, she wrote 2/5 * 15 = <<2/5*15=6>>6 lines.\nOn Wednesday, she wrote 6 * 2 = <<6*2=12>>12 lines.\nSo in total, she wrote 15 + 6 + 12 = <<15+6+12=33>>33 lines.\nTherefore, she spent a total of 4 * 3 = <<4*3=12>>12 hours on the blog.\n#### 12",
+        "answer": "104"
+    },
+    {
+        "question": "ক্যান্ডিস কফি শপে কাজে বেরোনোর আগে তাঁর পার্সে 80টি পোস্ট-ইট নোট রাখেন। তাঁর যাওয়ার পথে, তিনি দোকানে দাঁড়ালেন এবং এক প্যাকেট পোস্ট-ইট নোট কিনলেন; কাজে গিয়ে তিনি 220টি আলাদা আলাদা কফির কাপের প্রতিটিতে একটি করে পোস্ট-ইট নোট রাখলেন। যদি তাঁর কাছে মোট 23টি পোস্ট-ইট নোট অবশিষ্ট থাকে, তাহলে তাঁর কেনা প্যাকেটে কতগুলি পোস্ট-ইট নোট ছিল?",
+        "output": "Kaldi found 80+3=<<80+3=83>>83 post-it notes in his pocket before going to work.\nHe found 220*3=<<220*3=660>>660 post-it notes at work.\nSo he found 660+83=<<660+83=743>>743 post-it notes in total.\n#### 743",
+        "answer": "163"
+    },
+    {
+        "question": "জন নীল টাই-এর দ্বিগুণ লাল টাই ক্রয় করেছেন। নীল টাই-এর তুলনায় লাল টাই-এর দাম 50% বেশি। প্রতি নীল টাই $40 দরে ক্রয় করতে তিনি $200 ব্যয় করেছেন। তিনি টাই বাবদ মোট কত ব্যয় করেছেন?",
+        "output": "He paid 2*40 = <<2*40=80>>80 for the red ties.\nThe cost of the red ties was 50/100*40 = <<50/100*40=20>>20 more than the blue ties.\nSo the total cost of the red and blue ties was 20+40 = <<20+40=60>>60\nHe spent 3*200 = <<3*200=600>>600 dollars on ties.\nSo he spent 600/4 = <<600/4=150>>150 dollars on each tie.\n#### 150",
+        "answer": "800"
+    },
+    {
+        "question": "ট্রেসি বাগানের টমেটো গাছের অবলম্বনের জন্য 4 ফুট লম্বা একটি তার ব্যবহার করেছেন। তারটিকে 6 ইঞ্চি লম্বা টুকরো করে কাটা হয়েছিল। তিনি কতগুলি টুকরো পেয়েছিলেন?",
+        "output": "4 feet is 12 inches.\n6 inches is <<6=6>>6 inches.\nSo, 12 - 6 = <<12-6=6>>6 inches is used to cut the tomato plant.\nThus, she got 6/6 = <<6/6=1>>1 tomato plant cut.\n#### 1",
+        "answer": "8"
+    },
+    {
+        "question": "রিচার্ড 15 ফ্লোরের একটি অ্যাপার্টমেন্ট বিল্ডিং-এ থাকেন। প্রতিটি ফ্লোরে 8টি করে ইউনিট আছে, এবং বিল্ডিং-এর 3/4 অংশ অধিকৃত। বিল্ডিং-এ মোট অধিকৃত নয় এমন ইউনিটের সংখ্যা কত?",
+        "output": "If each building floor has 8 units, then the total number of units on all the floors is 15 floors * 8 units/floor = <<15*8=120>>120 units.\nSince the building has 3/4 of the units occupied, the number of units occupied by the building is 3/4 * 120 units = <<3/4*120=90>>90 units.\nThe number of units not occupied by the building is 120 units - 90 units = <<120-90=30>>30 units.\n#### 30",
+        "answer": "30"
+    }
+]

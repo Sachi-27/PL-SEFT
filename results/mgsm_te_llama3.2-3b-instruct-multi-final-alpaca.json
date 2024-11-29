@@ -1,0 +1,252 @@
+[
+    {
+        "question": "జనెత్ బాతులు ప్రతిరోజూ 16 గుడ్లు పెడతాయి. ఆమె ప్రతిరోజూ ఉదయం అల్పాహారం కొరకు మూడు గుడ్లు తింటుంది మరియు ప్రతిరోజూ నాలుగింటితో తన స్నేహితుల కొరకు మఫిన్‌లు బేక్ చేస్తుంది. ఆమె మిగిలిన వాటిని రోజూ రైతు మార్కెట్ వద్ద ప్రతి తాజా బాతు గుడ్డును $2కు విక్రయిస్తుంది. ఆమె రైతు మార్కెట్ వద్ద ప్రతిరోజూ ఎన్ని డాలర్లు సంపాదిస్తుంది?",
+        "output": "She bakes 16 x 4 = <<16*4=64>>64 finnae for her friends.\nShe eats 16 x 2 = <<16*2=32>>32 pieces of finnae.\nShe makes 64 - 32 = <<64-32=32>>32 dollars a day from selling finnae.\nShe makes 32 x 7 = <<32*7=224>>224 dollars a week from selling finnae.\n#### 224",
+        "answer": "18"
+    },
+    {
+        "question": "ఒక రోబ్ 2 బోల్ట్‌ల బ్లూ ఫైబర్ మరియు దానిలో సగం వైట్ ఫైబర్‌ని తీసుకుంది. అది మొత్తం ఎన్ని బోల్ట్‌లను తీసుకుంది?",
+        "output": "It gets 2 bolts of blue fiber and 1/2 bolt of white fiber from the robot. So it gets 2 + 1/2 = <<2+1/2=3.5>>3.5 bolts of fiber.\n#### 3",
+        "answer": "3"
+    },
+    {
+        "question": "జోష్ ఒక ఇంటిపై పెట్టుబడి పెట్టాలని నిర్ణయించుకున్నాడు. అతడు ఒక ఇంటిని $80,000కు కొనుగోలు చేసి, తరువాత మరమ్మత్తుల కొరకు $50,000 వెచ్చించాడు. ఇది ఇంటి విలువను 150% పెంచింది. అతడు ఎంత లాభం పొందాడు?",
+        "output": "He paid $80,000 for the house and then sold it for $80,000 + $50,000 = $<<80000+50000=130000>>130,000\nThe house was worth 150% of what he paid for it so he paid 150/100 * $80,000 = $<<150/100*80000=120000>>120,000 for the house\nHe made $130,000 - $120,000 = $<<130000-120000=10000>>10,000 profit\n#### 10,000",
+        "answer": "70000"
+    },
+    {
+        "question": "జేమ్ప్ వారంలో 3 సార్లు 3 స్ప్రింట్స్ పరిగెత్తాలని నిర్ణయించుకున్నాడు. అతడు ప్రతి స్ప్రింట్‌లో 60 మీటర్లు పరిగెత్తాడు. అతడు ఒక వారంలో ఎన్ని మీటర్లు పరిగెత్తాడు?",
+        "output": "He printed 3*60=<<3*60=180>>180 meters in a week\nSo in a week he printed 180*7=<<180*7=1260>>1260 meters\n#### 1260",
+        "answer": "540"
+    },
+    {
+        "question": "ప్రతిరోజూ, విండీ తన కోళ్లు ఆరోగ్యవంతంగా ఉండేందుకు సాయపడటానికి గింజలు, మీల్‌వార్మ్‌లు మరియు కూరగాయలు ఉండే మిక్సిడ్ చికెన్ ఫీడ్ యొక్క మూడు కప్పులను తన ప్రతి కోడికి పెడుతుంది. ఆమె కోళ్లకు మూడుసార్లు విడి మేతగా ఈ ఫీడ్‌ని ఇస్తుంది. ఉదయం పూట, ఆమె తన కోళ్ల మందకు 15 కప్పుల ఫీడ్‌ని ఇస్తుంది. మధ్యాహ్నం ఆమె తన కోళ్లకు మరో 25 కప్పుల ఫీడ్‌ని ఇస్తుంది. విండీ మందలో 20 కోళ్లు ఉన్నట్లయితే రోజులో చివరి మేతలో ఆమె కోళ్లకు ఎన్ని కప్పుల ఫీడ్‌ని ఇవ్వాల్సి ఉంటుంది?",
+        "output": "విండీ మందలో 20+30=<<20+30=50>>50% are made up of fiber.\nTherefore, 15+25=<<15+25=40>>40% of the diet is made up of fiber.\nThus, in one day, Windie gives her cat 40/100*50=<<40/100*50=20>>20 cups of fiber.\n#### 20",
+        "answer": "20"
+    },
+    {
+        "question": "కైలర్ తన కొత్త అపార్ట్‌మెంట్ కొరకు గ్లాసులను కొనుగోలు చేయడానికి స్టోరుకు వెళ్లాడు. ఒక గ్లాసు ఖరీదు $5, కానీ ప్రతి రెండో గ్లాసు ఖరీదు ధరలో కేవలం 60% మాత్రమే. కైలర్ 16 గ్లాసులను కొనుగోలు చేయాలని కోరుకుంటున్నాడు. అతడు వాటి కొరకు ఎంత చెల్లించాల్సి ఉంటుంది?",
+        "output": "If one glass costs $5, then two glasses cost 5*2 = $<<5*2=10>>10.\nSince 16 glasses are expensive as 2 glasses, then 16 glasses cost 16*10 = $<<16*10=160>>160.\n#### 160",
+        "answer": "64"
+    },
+    {
+        "question": "టౌలస్ వద్ద చార్లెస్టన్ కంటే రెట్టింపు సంఖ్యలో గొర్రెలు ఉన్నాయి. చార్లెస్టన్ వద్ద సియాటెల్ కంటే 4 రెట్లు ఎక్కువగా గొర్రెలు ఉన్నాయి. సియాటెల్ వద్ద 20 గొర్రెలు ఉన్నట్లయితే టౌలస్, చార్లెస్టన్ మరియు సియాటెల్ వద్ద మొత్తం ఎన్ని గొర్రెలు ఉన్నాయి?",
+        "output": "If the number of horses in Toulouse is 4 times the number in Charolais, then there are 4*20 = <<4*20=80>>80 horses in Toulouse.\nThe total number of horses in Toulouse and Charolais is 80+20 = <<80+20=100>>100\nIn addition to the 100 horses, there are 100-80 = <<100-80=20>>20 horses in Siatelle.\nThe total number of horses in the three towns is 100+20 = <<100+20=120>>120\n#### 120",
+        "answer": "260"
+    },
+    {
+        "question": "కార్లా 200GB ఫైలును డౌన్‌లోడ్ చేస్తోంది. సాధారణంగా ఆమె నిమిషానికి 2 GB డౌన్‌లోడ్ చేయగలదు, కానీ డౌన్‌లోడ్ 40% చేరుకునే సరికి, అప్‌డేట్‌లను ఇన్‌స్టాల్ చేయడానికి విండోస్ ఫోర్స్ రీస్టార్ట్ అయింది, దీనికి 20 నిమిషాలు పట్టింది. తరువాత కార్లా డౌన్‌లోడ్‌ని మొదటి నుంచి తిరిగి ప్రారంభించాల్సి వచ్చింది. ఫైలు డౌన్‌లోడ్ చేయడానికి ఎంత లోడ్ పడుతుంది?",
+        "output": "Carla has downloaded 200GB worth of files and is uploading them to the cloud. She can upload 2GB worth of files per minute, so she will upload 200GB / 2GB per minute = <<200/2=100>>100 minutes.\nHowever, her internet connection is 40% down, so she will have to wait 100 minutes * 40% = <<100*40*.01=40>>40 minutes for the upload to complete.\nShe then re-starts the upload, so the total time she spends uploading is 40 minutes + 20 minutes = <<40+20=60>>60 minutes.\n#### 60",
+        "answer": "160"
+    },
+    {
+        "question": "జాన్ గంటకు 60 మైళ్ల వేగంతో 3 గంటలపాటు ప్రయాణించాడు, ఇంటి వద్ద ముఖ్యమైనది ఏదో మర్చిపోయినట్లుగా అతడు అర్థం చేసుకోవడంతో వెనక్కి తిరిగాడు. అతడు 4 గంటల్లో ఇంటికి చేరుకోవడానికి ప్రయత్నిస్తాడు. కానీ మొదటి 2 గంటలు అతడు కదలకుండా ఆగిపోయిన ట్రాఫిక్‌లో గడిపాడు. అతడు తరువాత అర్ధ గంట 30 మైళ్ల వేగంతో ప్రయాణించాడు, 4 గంటల్లో మిగిన సమయాన్ని అతడు గంటకు 80 మైళ్ల వేగంతో ప్రయాణించగలుగుతాడు. ఆ 4 గంటలు ముగిసిన తరువాత అతడు ఇంటి నుంచి ఎంత దూరంలో ఉంటాడు?",
+        "output": "60/30=<<60/30=2>>2 hours ago 60 miles were covered.\n2 hours ago 60 miles were covered, so 4 hours later 80 miles were covered.\nSo far, he has covered 60 + 80 = <<60+80=140>>140 miles.\n#### 140",
+        "answer": "45"
+    },
+    {
+        "question": "ఎలీజా ప్రతివారం ఆమె పని చేసే మొదటి 40 గంటలకు గంటకు $10 రేటును పొందుతుంది. ఆమె ఓవర్ టైమ్ చెల్లింపును రెగ్యులర్ గంట రేటుకు 1.2 చొప్పున కూడా పొందుతుంది. ఎలీజా ఈ వారం 45 గంటలు పనిచేసినట్లయితే, ఈ వారానికి ఆమె ఎంత సంపాదిస్తుంది?",
+        "output": "Elleja earns 40 hours x $10/hour = $<<40*10=400>>400 per week.\nHer overtime pay is 45 hours x $1.2/hour = $<<45*1.2=54>>54.\nElleja earned a total of $400 + $54 = $<<400+54=454>>454 this week.\n#### 454",
+        "answer": "460"
+    },
+    {
+        "question": "ఒక కొత్త ప్రోగ్రామ్‌కు మొదటి నెలలో 60 డౌన్‌లోడ్‌లు ఉన్నాయి. రెండో నెలలో డౌన్‌లోడ్‌ల సంఖ్య మొదటి నెలలో డౌన్‌లోడ్‌లకు మూడు రెట్లు ఉన్నాయి, కానీ తరువాత మూడో నెలలో 30% తగ్గింది. మూడు నెలల్లో ఆ ప్రోగ్రామ్‌కు మొత్తం ఎన్ని డౌన్‌లోడ్‌లు ఉన్నాయి?",
+        "output": "In the first month there are 60 days x 1 = <<60*1=60>>60 days' worth of data.\nIn the second month there are 60 days x 2 = <<60*2=120>>120 days' worth of data.\nIn the third month there are 120 days - 30 days = <<120-30=90>>90 days' worth of data.\nSo in total there are 60 + 120 + 90 = <<60+120+90=270>>270 days' worth of data.\n#### 270",
+        "answer": "366"
+    },
+    {
+        "question": "టౌలా ఒక బేకరీకి వెళ్లి, వివిధ రకాలైన పేస్ట్రీలను కొనుగోలు చేసింది. ఆమె డజను $68 ఖరీదుతో 3 డజన్ల డోనట్‌లను, డజను $80 డాలర్లు ఖరీదుతో 2 డజన్ల మినీ కప్‌ కేకులను, డజను $55 ఖరీదుతో 6 డజన్ల మినీ చీజ్‌కేక్‌లను కొనుగోలు చేసింది. మొత్తం ఖర్చు ఎంత?",
+        "output": "3 dozen donuts cost 3 x $68 = $<<3*68=204>>204.\n2 dozen mini cupcakes cost 2 x $80 = $<<2*80=160>>160.\n6 dozen mini cheesecakes cost 6 x $55 = $<<6*55=330>>330.\nTherefore, Tolala spent a total of $204 + $160 + $330 = $<<204+160+330=694>>694.\n#### 694",
+        "answer": "694"
+    },
+    {
+        "question": "కార్లోస్ ఒక నిమ్మ చెట్టును నాటుతున్నాడు. చెట్టును నాటడానికి $90 అవుతుంది. ప్రతి సంవత్సరం దానికి 7 నిమ్మకాయలు కాస్తాయి, అతడు వాటిని ఒక్కొక్కటి $1.5 చొప్పున విక్రయిస్తాడు. చెట్టుకు నీళ్లు పెట్టడానికి మరియు ఎరువు వేయడానికి సంవత్సరానికి $3 ఖర్చు అవుతుంది. నిమ్మ చెట్టుపై అతడు సంపాదించడం ప్రారంభించడానికి ఎన్ని సంవత్సరాలు పడుతుంది?",
+        "output": "Each year, he earns $1.5 * 7 = $<<1.5*7=10.5>>10.5 from selling water plants.\nThis year, he earned $10.5 * 12 = $<<10.5*12=126>>126 from selling water plants.\nHe spent $3 * 12 = $<<3*12=36>>36 on fertilizers and pesticides.\nHe spent $90 * 12 = $<<90*12=1080>>1080 on hiring laborers to work on his farm.\nHe made $126 - $36 - $1080 = $<<126-36-1080=510>>510 on profit.\nTherefore, he has to pay a total of $510 / $1.5 = <<510/1.5=340>>340 to his workers.\nHe has to pay a total of $340 / 7 = <<340/7=50>>50 to each worker.\nThus, he has to pay a total of 50 * 12 = <<50*12=600>>600 workers.\nTherefore, he has to wait for 600 - 510 = <<600-510=90>>90 more years to start making profit.\n#### 90",
+        "answer": "13"
+    },
+    {
+        "question": "మెలీనా ఇంటింటికి వెళ్లి విక్రయించే మహిళ. ఆమె తన వద్ద ఉన్న వాక్యూం క్లీనర్‌ల్లో మూడోవంతు గ్రీన్ హౌస్ వద్ద, మరో 2ని రెడ్ హౌస్‌ వద్ద, మిగిలినవాటిలో సగాన్ని ఆరెంజ్ హౌస్ వద్ద విక్రయించింది. మెలీనా వద్ద 5 వాక్యూం క్లీనర్‌లు మిగిలి ఉంటే, ఆమె ఎన్నింటితో ప్రారంభించింది?",
+        "output": "If Melina was born in a green house, then she started living in an environment that was not natural, meaning there were no trees, no flowers, and no animals, except for insects.\nAs she grew up, she began to live in a red house, which was even more artificial than the green house, with no trees, flowers, or animals, except for insects.\nThe third house she was taken to was called an argentine house, which was similar to the red house, with no trees, flowers, or animals, except for insects.\nMelina was taken to five clean houses, which were essentially green houses, so she started living in a natural environment from birth.\n#### 5",
+        "answer": "18"
+    },
+    {
+        "question": "20 మంది విద్యార్ధులు ఉన్న డ్యాన్స్ క్లాస్‌లో, 20% మంది సంప్రదాయ డ్యాన్స్‌లో నమోదు చేసుకున్నారు, మిగిలిన వారిలో 25% మంది జాజ్ డ్యాన్స్‌లో నమోదు చేసుకున్నారు, మరియు మిగిలినవారు హిప్-హాప్ డ్యాన్స్‌లో నమోదు చేసుకున్నారు. హిప్-హాప్ డ్యాన్స్‌లో నమోదు చేసుకున్న మొత్తం విద్యార్ధుల శాతం ఎంత?",
+        "output": "20% + 25% + 55% = 100% - 30% = 70% of the students in the dance class agreed with the definition.\n#### 70",
+        "answer": "60"
+    },
+    {
+        "question": "ఒక వ్యాపారి 2 కొనుగోలు ప్లాన్‌ల మధ్య కొనుగోలు ఎంపిక చేసుకోవాలని కోరుకుంటున్నాడు: $5,000 విలువైన ఆభరణాలు లేదా $8,000 విలువైన ఎలక్ట్రానిక్ గాడ్జెట్‌లు. అదే నెలలో ఆభరణాల మార్కెట్ 2.5%, ఎలక్ట్రానిక్ గాడ్జెట్‌ల మార్కెట్ 1.2% పెరుగుతుందని అతడి ఆర్ధిక సలహాదారుడు ఊహిస్తున్నాడు. వ్యాపారి సరైన ఎంపిక చేసుకోవడం ద్వారా ఈ నెలాఖరుకు గరిష్టంగా లాభాన్ని పొందడానికి చూస్తున్నట్లయితే, ఇది ఎంత లాభం అవుతుంది?",
+        "output": "This is just like the old days where you would try to find the best buy by comparing prices across 2.5% of the market, or 1.2% of the market, depending on what you're looking for.\nThe old rule of thumb was to find the best buy by comparing prices across 5-7 days, or 1-2 weeks, depending on how many days you have to find the best price.\nThis is still true today, but much faster because you can find prices across entire markets, not just 2.5% or 1.2% of the market.\nSo, how much does this mean to the shopper? It means they can find the best price much faster, usually within a day or two, depending on the market and what they're looking for.\n#### 5,000",
+        "answer": "125"
+    },
+    {
+        "question": "రెండు రైళ్లు ఒకే సమయంలో శాన్ రాఫెల్ నుంచి బయలుదేరతాయి. అవి పశ్చిమంగా ప్రయాణించడం ప్రారంభించాయి, రెండూ కూడా 80 మైళ్ల వేగంతో ప్రయాణిస్తున్నాయి. తరువాత రోజు, అవి ఉత్తర దిశగా ప్రయాణించి, 150 మైళ్లు కవర్ చేశాయి. రెండు రోజుల్లో ప్రతిరైలు ప్రయాణించిన దూరం ఎంత?",
+        "output": "Both trains covered 80+80 = <<80+80=160>>160 miles.\nOn the first day, they traveled 80+150 = <<80+150=230>>230 miles.\nOn the second day, they traveled 160-230 = <<160-230=130>>130 miles.\nSo, the total distance covered is 130+230 = <<130+230=360>>360 miles.\n#### 360",
+        "answer": "230"
+    },
+    {
+        "question": "జిల్ బోధించినందుకు ప్రతి గంటకు $20 మరియు చీర్‌లీడింగ్ కోచ్‌గా ఉన్నందుకు $30 పొందుతుంది. ఆమె సంవత్సరంలో 50 వారాలు, వారానికి 35 గంటలపాటు టీచర్‌గా మరియు వారానికి 15 గంటలపాటు కోచ్‌గా పనిచేసినట్లయితే, ఆమె వార్షిక వేతనం ఎంత?",
+        "output": "She worked for 50/2 = <<50/2=25>>25 hours in a week.\nShe worked for 35/2 = <<35/2=17.5>>17.5 hours in a week.\nShe worked for 15/2 = <<15/2=7.5>>7.5 hours in a week.\nSo, she worked for 25 + 17.5 + 7.5 = <<25+17.5+7.5=50>>50 hours in a week.\nTherefore, her weekly earning is $20 x 50 = $<<20*50=1000>>1000.\nHer annual earning is $1000 x 52 = $<<1000*52=52000>>52000.\n#### 52000",
+        "answer": "57500"
+    },
+    {
+        "question": "క్లారీ ప్రతిరోజూ ఉదయం అల్పాహారం కొరకు 3 గుడ్ల ఆమ్లెట్‌ని వేస్తుంది. ఆమె 4 వారాల్లో ఎన్ని డజన్ల గుడ్లను తింటుంది?",
+        "output": "Three days a week, Clare makes 3 * 7 = <<3*7=21>>21 calories available for breakfast.\nIn four weeks, she eats 4 * 21 = <<4*21=84>>84 calories.\nSince 1 week has 7 days, in 4 weeks, she eats 4 * 7 = <<4*7=28>>28 days.\n#### 28",
+        "answer": "7"
+    },
+    {
+        "question": "మరిస్సా 12 మైళ్ల పొడవున్న కాలిబాటలో హైకింగ్ చేస్తోంది. మొదటి 4 మైళ్లు నడవడానికి ఆమెకు 1 గంట పట్టింది, తరువాత రెండు మైళ్లు నడవడానికి మరో గంట పట్టింది. ప్రతి గంటకు సగటు వేగం 4 మైళ్లుగా ఉండాలని ఆమె కోరుకున్నట్లయితే, మిగిలిన దూరాన్ని ఆమె ఎంత వేగంగా (ప్రతి గంటకు మైళ్లలో) నడవాల్సి ఉంటుంది?",
+        "output": "Calming = 4 * 2 = <<4*2=8>>8 miles\nTime = 2 + 1 = <<2+1=3>>3 hours\nSpeed = 12 - 8 = <<12-8=4>>4 miles/hour\n#### 4",
+        "answer": "6"
+    },
+    {
+        "question": "నా వద్ద 10 లీటర్ల ఆరెంజ్ డ్రింక్ ఉంది, దీనిలో మూడింట రెండువంతుల నీరు ఉంది, నేను దీనిని ఐదింట-మూడువంతుల నీరు ఉన్న 15 లీటర్ల పైనాపిల్ డ్రింక్‌కు కలపాలని కోరుకుంటున్నాను. కానీ నేను దానిని పోసేటప్పుడు, ఒక లీటర్ ఆరెంజ్ డ్రింక్ కింద పోయింది. మిగిలిన 24 లీటర్లలో ఎంత నీరు ఉంది?",
+        "output": "There are 10 + 15 = <<10+15=25>>25 liters of water in the drains.\nSince one liter of water is equal to 1000 grams, then 25 liters of water is equal to 25 x 1000 = <<25*1000=25000>>25000 grams.\nSince 1 gram is equal to 1 milliliter, then 25000 grams is equal to 25000 x 1 = <<25000*1=25000>>25000 milliliters.\nA liter of water is equal to 1000 milliliters, so 10 liters of water is equal to 10 x 1000 = <<10*1000=10000>>10000 milliliters.\nSimilarly, 15 liters of water is equal to 15 x 1000 = <<15*1000=15000>>15000 milliliters.\nSo, the total amount of water in the drains is 10000 + 15000 = <<10000+15000=25000>>25000 milliliters.\nSince there is 24 liters of water left in the drains, then there is 24 x 1000 = <<24*1000=24000>>24000 grams of water left in the drains.\nSo, 24000 grams of water is equal to 24000 x 1 = <<24000*1=24000>>24000 milliliters.\nTherefore, there are 25000 - 24000 = <<25000-24000=1000>>1000 liters of water left in the drains.\n#### 1000",
+        "answer": "15"
+    },
+    {
+        "question": "రేమండ్ మరియు సమంతాలు కజిన్‌లు. సమంత కంటే 6 సంవత్సరాల ముందు రేమండ్ పుట్టాడు. రేమండ్‌కు 23 సంవత్సరాల కుమారుడు ఉన్నాడు. ఇప్పుడు సమంతకు 31 అయితే, ఎన్ని సంవత్సరాల క్రితం రేమండ్ కొడుకు పుట్టాడు?",
+        "output": "Raiders and clans are similar to gangs. A gang is a group of people who do something together and have each other's backs. A raid is similar to a gang fight but with more emphasis on plundering and pillaging.",
+        "answer": "14"
+    },
+    {
+        "question": "బిల్లీ DVDలను విక్రయిస్తాడు. అతడికి మంగళవారం నాడు 8 మంది ఖాతాదారులున్నారు. అతడి మొదటి 3 ఖాతాదారులు ఒక్కొక్క DVD చొప్పున కొనుగోలు చేశారు. అతడి తరువాత 2 ఖాతాదారులు 2 DVDల చొప్పున కొనుగోలు చేశారు. అతడి చివరి 3 ఖాతాదారులు ఎలాంటి DVDలను కొనుగోలు చేయలేదు. బిల్లీ మంగళవారంనాడు ఎన్ని DVDలను విక్రయించాడు?",
+        "output": "3+2=<<3+2=5>>5 DVD's were sold on Tuesday.\n5+0=<<5+0=5>>5 DVD's were sold on Wednesday.\n5+0=<<5+0=5>>5 DVD's were sold on Thursday.\n5+0=<<5+0=5>>5 DVD's were sold on Friday.\n5+0=<<5+0=5>>5 DVD's were sold on Saturday.\n5+0=<<5+0=5>>5 DVD's were sold on Sunday.\nBilly sold 8+5+5+5+5=<<8+5+5+5+5=32>>32 DVD's.\n#### 32",
+        "answer": "7"
+    },
+    {
+        "question": "ఒక క్యాండిల్ అది మండేటప్పుడు ప్రతి గంటకు 2 సెంటీమీటర్లు కరిగిపోతుంది. ఒక క్యాండిల్‌ను మధ్యాహ్నం 1:00 గంట నుంచి సాయంత్రం 5:00 గంటల వరకు మండించినట్లయితే ఎన్ని సెంటీమీటర్లు చిన్నది అవుతుంది?",
+        "output": "If each hour a candle burns for 2 hours, then in 5 hours, a candle would burn for 2*5 = <<2*5=10>>10 hours.\nIf in 10 hours a candle burns for 10 hours, then in 1 hour, a candle would burn for 10/10 = <<10/10=1>>1 hour.\nSince there are 60 minutes in an hour, then in 1 hour, a candle would burn for 1*60 = <<60=60>>60 minutes.\n#### 60",
+        "answer": "8"
+    },
+    {
+        "question": "కైలీ గత సంవత్సరం ఎక్కువగా అమ్ముడైన పుస్తకాన్ని $19.50కు కొనుగోలు చేశాడు. ఇది వాస్తవ ధరతో పోలిస్తే 25% డిస్కౌంట్‌తో ఉంటుంది. పుస్తకం అసలు ధర ఎంత?",
+        "output": "Let x be the original price of the book.\nThen 1.25x = $19.50\nThus x = $19.50 / 1.25 = $<<19.5/1.25=15.60>>15.60\n#### 15.60",
+        "answer": "26"
+    },
+    {
+        "question": "మేరీ $12 ఖరీదు చేసే ఒక చికెన్ మీల్, ఒక్కొక్కటి $3 ఖరీదు ఉండే 5 ప్యాక్‌ల పాలు, ఒక్కొక్కటి $1.50 ఖరీదు ఉండే 4 ఆపిల్స్‌ను, మరియు కొన్ని బాక్సుల పిజ్జాని ఆర్డర్ చేసింది. మేరీ మొత్తం $50 చెల్లించింది. ఒక్కొక్క బాక్సు ఖరీదు $8.50 అయితే మేరీ ఎన్ని పిజ్జా బాక్సులను ఆర్డర్ చేసింది?",
+        "output": "Mary's total bill was $12 x 5 = $<<12*5=60>>60.\nShe bought 4 apples for $1.50 each, so her total bill was $1.50 x 4 = $<<1.5*4=6>>6.\nShe ordered 5 packs of chicken meal, so her total bill was $3 x 5 = $<<3*5=15>>15.\nShe ordered 4 pizzas, so her total bill was $8.50 x 4 = $<<8.5*4=34>>34.\nHer total bill was $60 + $6 + $15 + $34 = $<<60+6+15+34=115>>115.\nShe paid with a $50 bill, so her change was $50 - $115 = $<<50-115=35>>35.\nSince she received $35 in change, then she ordered $35/$8.50 = <<35/8.5=4>>4 pizzas.\n#### 4",
+        "answer": "2"
+    },
+    {
+        "question": "మిష్కా 3 జతల షార్ట్‌లు, 3 జతల ప్యాంట్‌లు, మరియు 3 జతల షూలను కొనుగోలు చేసింది. ఒక జత షార్ట్‌ల ఖరీదు $16.50. ఒక జత ప్యాంట్‌ల ఖరీదు $22.50 మరియు ఒక జత షూల ఖరీదు $42. బట్టల వస్తువులు అన్నింటిపైన మిష్కా ఎంత ఖర్చు పెట్టింది?",
+        "output": "3 जata shirts cost $16.50 x 3 = $<<16.5*3=49>>49.\n3 jata pants cost $22.50 x 3 = $<<22.5*3=67.50>>67.50.\n3 jata shoes cost $42 x 3 = $<<42*3=126>>126.\nTherefore, Misha spent a total of $49 + $67.50 + $126 = $<<49+67.5+126=242.50>>242.50 on the clothes.\n#### 242.50",
+        "answer": "243"
+    },
+    {
+        "question": "సింతియా ప్రతి రాత్రి ఒక సర్వింగ్ ఐస్ క్రీమ్‌ని తింటుంది. ప్రతి కార్టన్ $4.00 చొప్పున, ప్రతి కార్టన్‌లో 15 సర్వింగ్‌ల ఐస్ క్రీమ్ ఉండే కార్టన్‌లను ఆమె కొనుగోలు చేస్తుంది. 60 రోజుల తరువాత, ఐస్‌ క్రీమ్‌పై ఆమె ఎంత ఖర్చు పెడుతుంది?",
+        "output": "She eats 15 servings of ice cream a night for 60 nights so 15*60 = <<15*60=900>>900 servings of ice cream\nEach serving is $4.00 so she spends 4*900 = $<<4*900=3600.00>>3,600.00 on ice cream\n#### 3600",
+        "answer": "16"
+    },
+    {
+        "question": "హెన్రీ తన 60 మైళ్ల బైక్ ట్రిప్‌లో రెండుసార్లు ఆగాడు. అతడు మొదట 20 మైళ్ల తరువాత ఆగాడు. ట్రిప్ ముగియడానికి 15 నిమిషాలముందు అతడు రెండోసారి ఆగాడు. అతడి మొదటి మరియు రెండో స్టాప్‌ల మధ్య అతడు ఎన్ని మైళ్లు ప్రయాణించాడు?",
+        "output": "Heini walked 20 + 15 = <<20+15=35>>35 miles in total.\nHe did two stopsovers, so he walked 35 - 20 - 15 = <<35-20-15=0>>0 miles in total.\n#### 0",
+        "answer": "25"
+    },
+    {
+        "question": "గ్లోరియా షూ షాపింగ్ చేసేటప్పుడు, తన షూ బడ్జెట్‌‌కు సరిపోయే బూట్‌ల జతను ఆమె చూసింది. అయితే, ఆమె బూట్‌లు మరియు బూట్‌ల కంటే ఐదు డాలర్లు తక్కువ ఖరీదు చేసే రెండు జతల హై హీల్స్ మధ్య ఎంచుకోవాల్సి ఉంది. ఒక జత హీల్స్ ఖరీదు $33 డాలర్లు మరియు మరో జత రెట్టింపు ఖరీదు అయితే, బూట్‌ల ధర ఎన్ని డాలర్లు?",
+        "output": "If one shoe is $33, then two shoes cost 33*2 = $<<33*2=66>>66.\nHowever, you can find cheaper shoes for $5 less. So, one shoe will now cost 33-5 = $<<33-5=28>>28.\nTwo shoes will now cost 28*2 = $<<28*2=56>>56.\n#### 56",
+        "answer": "104"
+    },
+    {
+        "question": "డరెల్ మరియు అలెన్‌ల వయస్సుల నిష్పత్తి 7:11. ఇప్పుడు వారి మొత్తం వయస్సు 162. ఇప్పటి నుంచి 10 సంవత్సరాల్లో అలెన్ వయస్సును లెక్కించండి.",
+        "output": "Del Potro and Alonso have a combined age of 162. Currently, Alonso is 10 years younger than Del Potro. Therefore, Alonso is 7 + 11 = <<7+11=18>>18 years old.\nDel Potro is 18 + 10 = <<18+10=28>>28 years old.\n#### 28",
+        "answer": "109"
+    },
+    {
+        "question": "గుంటెర్ ఒక జార్‌లోని జెల్లీ బీన్స్‌లను లెక్కించడానికి ప్రయత్నిస్తున్నాడు. జార్‌లో ఎన్ని ఉన్నాయని అనుకుంటున్నారని అతడు తన స్నేహితులను అడిగాడు. ఒకరు 80 అని చెప్పారు. మరొకరు మొదటి వ్యక్తి చెప్పిన దానికి సగం కంటే 20 ఎక్కువ అని చెప్పారు. మూడో వ్యక్తి మొదటి వ్యక్తి కంటే 25% ఎక్కువ అని చెప్పాడు. వారి సగటు అంచనా ఎంత?",
+        "output": "80 + 20 + 25 = <<80+20+25=125>>125\n3 people * 125 = <<3*125=375>>375\n375 / 3 = <<375/3=125>>125\nTheir average is 125.\n#### 125",
+        "answer": "80"
+    },
+    {
+        "question": "జాన్ 10 కుక్కలను సంరక్షిస్తున్నాడు. ప్రతి కుక్క నడవడానికి మరియు వాటికి సంబంధించిన పనులు చేపట్టడానికి రోజుకు .5 గంటలు పడుతుంది. కుక్కల సంరక్షణలో అతడు వారానికి ఎన్ని గంటలు గడుపుతాడు?",
+        "output": "He spends 10*.5=<<10*.5=5>>5 hours per day on cattle duty.\nSo he spends 5*7=<<5*7=35>>35 hours on cattle duty each week.\n#### 35",
+        "answer": "35"
+    },
+    {
+        "question": "గ్రెట్‌చెన్ వద్ద 110 కాయిన్‌లు ఉన్నాయి. బంగారు నాణాలు వెండి నాణాల కంటే 30 ఎక్కువగా ఉన్నాయి. గ్రెట్‌చెన్ వద్ద ఎన్ని బంగారు నాణాలు ఉన్నాయి?",
+        "output": "There are 110 / 30 = <<110/30=3.67>>3.67 times more gold than silver in the region.\nSo there are 3.67 * 110 = <<3.67*110=399>>399 golds in the region.\nAnd there are 110 * 1/3.67 = <<110*1/3.67=30>>30 silvers in the region.\nSo there are 399 - 30 = <<399-30=369>>369 golds that are not silvers in the region.\n#### 369",
+        "answer": "70"
+    },
+    {
+        "question": "సియోభన్ వద్ద ఆరోన్ కంటే 2 ఆభరణాలు తక్కువగా ఉన్నాయి. ఆరోన్ వద్ద రేమండ్ ఆభరణాల్లో సగానికంటే 5 ఆభరణాలు ఎక్కువగా ఉన్నాయి. రేమండ్ వద్ద 40 ఆభరణాలు ఉంటే, సియోభన్ వద్ద ఎన్ని ఆభరణాలు ఉన్నాయి?",
+        "output": "If the Arctic region is 5 times larger than the Antarctic region, then there are 5*40 = <<5*40=200>>200 snows in the Arctic region.\nSince the number of snows in the Arctic region is 2 times less than the number of snows in the Antarctic region, then there are 2*200 = <<2*200=400>>400 snows in the Antarctic region.\nIf the Antarctic region is 40 times larger than the region of Siuva, then there are 40*400 = <<40*400=16000>>16000 snows in the region of Siuva.\n#### 16000",
+        "answer": "23"
+    },
+    {
+        "question": "మైక్ 40 నిమిషాలపాటు పింగ్‌ పాంగ్ ఆడతాడు. మొదటి 20 నిమిషాల్లో, అతడు 4 పాయింట్‌ల స్కోరు చేశాడు. రెండో 20 నిమిషాల్లో, అతడు 25% ఎక్కువ పాయింట్‌లను స్కోరు చేశాడు. అతడు మొత్తం ఎన్ని సార్లు స్కోరు చేశాడు?",
+        "output": "20 + 20 = <<20+20=40>>40 balls were thrown in the first two intervals.\nSince the balls were thrown 40 times in total, then 40 - 20 - 20 = <<40-20-20=0>>0 balls were thrown in the remaining intervals.\n#### 0",
+        "answer": "9"
+    },
+    {
+        "question": "టెర్రీ ప్రతిరోజూ 2 యోగర్ట్‌లు(పెరుగు) తింటాడు. అవి ప్రస్తుతం 4 యోగర్ట్‌లు $5.00కు అమ్మకానికి ఉన్నాయి. అతడు 30 రోజుల్లో యోగర్ట్‌పై ఎంత ఖర్చు పెడతాడు?",
+        "output": "He buys 2 yoga mats each day and they cost $4.00 each so that's 2*4 = $<<2*4=8.00>>8.00\nHe buys 30 days worth of yoga mats and they cost $8.00 each so that's 30*8 = $<<30*8=240>>240.00\n#### 240",
+        "answer": "75"
+    },
+    {
+        "question": "జాన్ తన బొమ్మలను విక్రయించి, ఆ డబ్బుతో వీడియో గేమ్‌లను కొనుగోలు చేయడానికి ఉపయోగించేందుకు ప్లాన్ చేస్తున్నాడు. అతడి వద్ద 13 లెగో సెట్‌లు ఉన్నాయి మరియు అతడు వాటిని ఒక్కొక్కటి $15కు విక్రయించాడు. అతడు ఒక్కొక్కటి $20 ఉండే 8 వీడియో గేమ్‌లను కొనుగోలు చేశాడు మరియు అతడి వద్ద $5 మిగిలి ఉన్నాయి. అతడి వద్ద ఇంకా ఎన్నో లెగో సెట్‌లు ఉన్నాయి?",
+        "output": "He sold 13 legosets and they were all $15 so he made 13*15 = $<<13*15=195>>195\nHe bought 8 video games that were $20 each so he spent 8*20 = $<<8*20=160>>160\nHe had $5 left over so his total earnings were 195+5 = $<<195+5=200>>200\nHe spent 160+5 = $<<160+5=165>>165\nHe had 35 left over so he earned 200-165 = $<<200-165=35>>35\nThere are 35/15 = <<35/15=2.333333333>>2.333333333 legosets\nSo he bought 2 legosets\n#### 2",
+        "answer": "2"
+    },
+    {
+        "question": "జాన్ వారానికి 60 మైళ్లు పరిగెత్తుతాడు. అతడు వారానికి 3 రోజులు పరిగెత్తుతాడు. అతడు మొదటి రోజు 3 గంటలు పరిగెత్తుతాడు మరియు మిగిలిన రెండు రోజులు దానిలో సగం సమయం పరిగెత్తుతాడు. అతడు ఎంత వేగంగా పరిగెత్తుతాడు?",
+        "output": "He covers 60 miles in 3 days. So, he covers 60 miles / 3 days = <<60/3=20>>20 miles per day.\nHe covers 20 miles in 2 days. So, he covers 20 miles / 2 days = <<20/2=10>>10 miles per day.\nHe covers 10 miles in 1 day. So, he covers 10 miles / 1 day = <<10/1=10>>10 miles per day.\nSo, he covers 60 miles in 3 days = <<60/3=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles = <<60-20=40>>40 miles remaining.\nHe covers 40 miles in 2 days. So, he covers 40 miles / 2 days = <<40/2=20>>20 miles per day.\nSo, he covers 40 miles - 20 miles = <<40-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he covers 20 miles / 1 day = <<20/1=20>>20 miles per day.\nSo, he covers 60 miles - 20 miles - 20 miles = <<60-20-20=20>>20 miles remaining.\nSo, he covers 20 miles in 1 day. So, he",
+        "answer": "10"
+    },
+    {
+        "question": "డానా తాను నడవగల వేగానికి నాలుగు రెట్లు వేగవంతమైన రేటుతో పరిగెత్తగలదు, కానీ ఆమె పరిగెత్తగల వేగంలో సగం వేగంతో స్కిప్పింగ్ చేయగలదు. ఆమె గంటకు 3 మైళ్ల వేగంతో స్కిప్పింగ్ చేయగలిగితే, ఆమె మొత్తం సమయంలో మూడింట- ఒకవంతు పరిగెత్తడంలోనూ మరియు మూడింట-రెండువంతుల సమయాన్ని నడవడంలో గడిపితే ఆరు గంటల్లో ఆమె ఎన్ని మైళ్లు ప్రయాణించగలదు?",
+        "output": "If you take the fastest route, which is along the route of 4 lanes, you will cover 3 miles in 1/2 hour, so 3 x 2 = <<3*2=6>>6 miles in 1 hour.\nIn 2 hours you will cover 6 x 2 = <<6*2=12>>12 miles.\nSo, if you take 2 hours to travel 12 miles, then you can travel 12/2 = <<12/2=6>>6 miles in 1 hour.\nTherefore, in 4 hours you will cover 6 x 4 = <<6*4=24>>24 miles.\n#### 24",
+        "answer": "18"
+    },
+    {
+        "question": "బ్రెండన్ ఐఫోన్ బెన్ ఐఫోన్ కంటే నాలుగురెట్లు పాతది. బెన్ ఐఫోన్ సుజీ ఐఫోన్ కంటే రెండురెట్లు పాతది. ఒకవేళ సుజీ ఐఫోన్ 1 సంవత్సరం పాతది అయితే, బ్రెండన్ ఐఫోన్ ఎంత పాతది?",
+        "output": "Bründon iPhone 4s are older than the Ben 4s by 4 years. The Ben 4s are older than the Suzy 2s by 2 years. So, the Bründon iPhone 4s are older than the Suzy 2s by 4 + 2 = <<4+2=6>>6 years.\n#### 6",
+        "answer": "8"
+    },
+    {
+        "question": "ద గ్రేట్ డ్రాగన్, పెర్గ్, ఫార్బో పర్వతం యొక్క ఎత్తైన ప్రదేశంపై కూర్చొని 1000 అడుగల దూరంలో ఉండే ఏదైనా మంటను శ్వాసిస్తుంది. డ్రాగన్‌ని 400 అడుగుల దూరానికి స్లెడ్జ్ చేయగలదని తెలిసిన ఏకైక ఆయుధం, బంగారపు జావెలిన్‌ని డ్రాగన్‌ మంటలను బాగా దగ్గరగా చేరుకునే విధంగా పాలీ విసరగలదు, కానీ పాలీ నీలమణి రత్నాన్ని పట్టుకున్నప్పుడు, రత్నమణిని పట్టుకోకుండా ఉన్నదానితో పోలిస్తే మూడురెట్లు ఎక్కువదూరం జావెలిన్‌ని విసరగలదు. రత్నమణిని పట్టుకున్నట్లయితే, డ్రాగన్ మంటల నుంచి ఎంత దూరంలో పాలీ నిలబడి, బంగారపు జావెలిన్‌ని డ్రాగన్‌‌కు తగిలేలా విసరగలదు?",
+        "output": "If dragged up 1000 feet, thrown from a height of 400 feet, or falling from a bridge 1000 feet high, you're going to get burned if you don't get out of the way fast. The dragon's breath is 1000 feet per second, so you have 1000/1000 = <<1000/1000=1>>1 second to get out of the way.\nIf you throw a sword at the dragon, you have 400 feet * 2 = <<400*2=800>>800 feet of range.\nIf you use a shield, you have 800 feet * 1 = <<800*1=800>>800 feet of range.\nIn either case, you need to be close to the dragon's height to hit it. So use your range weapon of choice and aim for the dragon's height.\n#### 800",
+        "answer": "200"
+    },
+    {
+        "question": "అమ్మమ్మ జోన్స్ ఫైర్‌మెన్స్ లంచ్ కొరకు 5 ఆపిల్ పైలను బేక్ చేసింది. ఆమె ప్రతి పైని 8 ముక్కలుగా కోసింది మరియు అతిధులు తామే సర్వ్ చేసుకోవడానికి బఫెట్ టేబుల్ మీద ఐదు పైలు సెట్ చేసింది. సాయంత్రం ముగిసే సరికి, అతిధులు వారి పై ముక్కులను తీసుకొని, తినిన తరువాత, 14 ముక్కల పై మిగిలి ఉంది. అతిధులు ఎన్ని ముక్కల పైని తిన్నారు?",
+        "output": "Amma John's farens baked 5 x 8 = <<5*8=40>>40 snacks.\nShe set 5 x 14 = <<5*14=70>>70 biscuits.\nAfter the guests ate, there were 70 - 14 = <<70-14=56>>56 biscuits left.\nThe guests ate 56/4 = <<56/4=14>>14 biscuits each.\nThe guests ate 14 x 4 = <<14*4=56>>56 in total.\n#### 56",
+        "answer": "26"
+    },
+    {
+        "question": "దాని పోషకాహార సమాచారం ప్రకారం, ఒక బ్యాగ్ చిప్స్‌లో ప్రతి సర్వింగ్‌కు 250 క్యాలరీలు ఉంటాయి. 300 గ్రాముల బ్యాగ్‌లో 5 సర్వింగ్‌లు ఉన్నట్లయితే, మీ రోజువారీ కేలరీల టార్గెట్ 2000 మరియు మీరు ఇప్పటికే 1800 క్యాలరీలను తీసుకున్నట్లయితే, మీరు ఎన్ని గ్రాములను తినవచ్చు?",
+        "output": "If each serving size is 250 calories, then 5 servings would be 250*5=<<250*5=1250>>1250 calories.\nIf you start with 300 grams of cereal and take 5 grams out of each serving size, you are left with 300-5=<<300-5=295>>295 grams of cereal.\nSince 295 grams is equal to 295/2000= <<295/2000=0.149>>0.149 in terms of percentage, then you can start with 2000 calories and take 1800 calories out of them.\nThis means you can eat 2000-1800=<<2000-1800=200>>200 calories worth of food.\nSince 1 gram is equal to 1/1000= <<1/1000=0.001>>0.001 in terms of percentage, then you can eat 200*0.001= <<200*0.001=0.2>>0.2 grams of food.\nThis means you can eat 0.2*295=<<0.2*295=59>>59 grams of food.\nThis means you can eat 59/300=<<59/300=0.2>>0.2 of a bag of chips.\n#### 59",
+        "answer": "48"
+    },
+    {
+        "question": "చార్లీ తేనెటీగల మైనంతో తయారు చేసిన క్యాండిల్స్‌ని విక్రయించాలని కోరుకుంటున్నాడు. ప్రతి పౌండ్ తేనెటీగల మైనంతో, అతడు 10 సన్నటి క్యాండిల్స్‌‌ని తయారు చేయగలడు. ఒక పౌండ్ తేనెటీగల మైనం మరియు వత్తిని సరఫరా చేయడానికి $ 10.00 ఖర్చు అవుతుంది, అతడు ప్రతి క్యాండిల్‌ని $2.00కు విక్రయిస్తే, అతడు 20 క్యాండిల్స్ తయారు చేసి, అమ్మడం ద్వారా, అతడి నికర లాభం ఎంత?",
+        "output": "He makes 10 cents per pound of tea and sells it for $10.00 a pound so he makes 10*.10 = $1.00 per pound of tea\nHe sells 20 cans of tea per pound and each can is $2.00 so he makes 20*2 = $<<20*2=40.00>>40.00 per pound of tea\nHis total earnings for the day are $40.00 from selling tea and $1.00 from interest so he made 40+1 = $<<40+1=41.00>>41.00\n#### 41",
+        "answer": "20"
+    },
+    {
+        "question": "మెరిడిత్ ఒక ఫ్రీలాన్స్ బ్లాగర్, ఆమె శాశ్వత ఉద్యోగంగా ప్రతిరోజూ వైద్యవిషయాల గురించి రాసి, క్లయింట్‌లకు సబ్మిట్ చేస్తుంది. ఒక బ్లాగ్ కథనం గురించి పరిశోధించి, రాయడానికి సుమారుగా 4 గంటలు పడుతుంది. గత వారం, ఆమె సోమవారం నాడు 5 కథనాలు రాసింది, మంగళవారంనాడు సోమవారం కంటే 2/5 రెట్లు ఎక్కువ కథనాలను రాసింది. బుధవారం నాడు, ఆమె మంగళవారం నాటికంటే రెట్టింపు సంఖ్యలో కథనాలను రాసింది. ఆమె మూడురోజుల్లో కథనాలను రాయడానికి గడిపిన మొత్తం గంటల సంఖ్యను లెక్కించండి.",
+        "output": "Meridith has been blogging since 2006, and has written over 5,000 articles.\nShe is known for writing clear, concise articles that are easy to read.\nHer blog has been featured in several health and wellness publications.\nMeridith has written articles on a wide range of topics, including health, wellness, and lifestyle.\nShe is a passionate writer who enjoys writing about health and wellness.\nMeridith has written over 5,000 articles, and is known for writing clear, concise articles that are easy to read.\n#### 5000",
+        "answer": "104"
+    },
+    {
+        "question": "క్యాండిస్ కాఫీ షాపు వద్ద తన ఉద్యోగానికి బయలుదేరడానికి ముందు తన పర్సులో 80 పోస్ట్-ఇట్ నోట్‌లను పెట్టుకుంది. వెళ్లేత్రోవలో, ఆమె స్టోరు వద్ద ఆగి, ఒక పోస్ట్-ఇట్ నోట్‌ల ప్యాకేజీని కొనుగోలు చేసింది; ఆమె 220 విభిన్న కాఫీ కప్పులపై ఒక్కొక్క పోస్ట్-ఇట్ నోట్‌ని ఉంచింది. ఆమె వద్ద మొత్తం మీద 23 పోస్ట్-ఇట్ నోట్‌లు మిగిలి ఉంటే, ఆమె కొనుగోలు చేసిన ప్యాకేజీలో ఎన్ని పోస్ట్-ఇట్ నోట్‌లు ఉన్నాయి?",
+        "output": "If she bought 80 post-it notes and then some more, she has a total of 80+23 = <<80+23=103>>103 post-it notes.\nSince each package of post-it notes has 20-22=1 post-it note, she must have bought 1*103/1=<<1*103/1=103>>103 post-it notes.\n#### 103",
+        "answer": "163"
+    },
+    {
+        "question": "జాన్ నీలం రంగు టైల కంటే రెట్టింపు సంఖ్యలో ఎరుపు టైలను కొనుగోలు చేశాడు. నీలం టైల కంటే ఎరుపు టైల ఖరీదు 50% ఎక్కువ. ఒక్కొక్కటి $40 డాలర్లు ఖరీదు ఉండే నీలం రంగు టైలపై అతడు $200 డాలర్లు ఖర్చు పెట్టాడు. అతడు టైలు కోసం ఎంతమొత్తం ఖర్చు పెట్టాడు?",
+        "output": "He spent 200/40=<<200/40=5>>5 red tiles for each blue tile.\nSo he spent 5*50=<<5*50=250>>250 dollars for the red tiles.\nSo he spent 250+40=<<250+40=290>>290 dollars in total.\n#### 290",
+        "answer": "800"
+    },
+    {
+        "question": "ట్రేసీ తోటలోని టొమాటో మొక్కలకు ఆధారం అందించడానికి 4 అడుగుల పొడవు ఉన్న వైరు ముక్కను ఉపయోగించింది. వైరును 6 అంగుళాల పొడవు ఉన్న ముక్కలుగా కత్తిరించారు. ఆమె ఎన్నిముక్కలను పొందింది?",
+        "output": "They used 4 feet of wood to make the wheelbarrow, which is 48 inches because 4 x 12 = <<4*12=48>>48\nThey cut the wheelbarrow wood into 6-foot sections, which are 72 inches because 6 x 12 = <<6*12=72>>72\nThey got 48/72 = <<48/72=0.67>>0.67 of a wheelbarrow made from the wood.\nThey made 0.67 wheels, so they got 0.67 x 4 = <<0.67*4=2.67>>2.67 wheels.\n#### 2.67",
+        "answer": "8"
+    },
+    {
+        "question": "రిచర్డ్ 15 ఫోర్లు ఉండే అపార్ట్‌మెంట్‌లో నివసిస్తాడు. ప్రతి ఫ్లోరులో 8 యూనిట్‌లు ఉన్నాయి, భవంతి యొక్క 3/4లో కాపురం ఉంటున్నారు. భవంతిలో కాపురం ఉండని యూనిట్‌ల మొత్తం సంఖ్య ఎంత?",
+        "output": "If each floor has 8 units, the total number of units in a building is 8*15 = <<8*15=120>>120\nIf 3/4 of the units are occupied by buildings, the number of units occupied by buildings is 3/4*120 = <<3/4*120=90>>90\nThe number of units not occupied by buildings is 120-90 = <<120-90=30>>30\n#### 30",
+        "answer": "30"
+    }
+]
